@@ -19,3 +19,9 @@
     display: none;
   }
 }
+
+.titleHeader {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 700;
+}

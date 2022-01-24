@@ -8,7 +8,7 @@ function Component() {
     <div className={common.section}>
       <div className={`${common.container} ${common.splitContainer}`}>
         <div className={common.text}>
-          <h1 className={common.title}>
+          <h1 className={styles.titleHeader}>
             Programmable. <br /> Scalable. <br /> Flexible. <br /> Mobile core network.
           </h1>
           <div className={common.subtitle}>
