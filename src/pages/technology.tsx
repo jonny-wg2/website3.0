@@ -19,31 +19,9 @@ function Index() {
         <div className={common.container}>
           <div className={styles.priceTiers}>
             <div className={styles.priceTier}>
-              <div className={styles.priceTierTitle}>Personal</div>
+              <div className={styles.priceTierTitle}>3,000,000 SMS</div>
               <div className={styles.priceTierDescription}>
-                Helping individual developers, small teams, and open source projects view, debug, analyze, and speed up
-                their builds.
-              </div>
-              <div className={styles.price}>Free</div>
-              <a
-                style={{ backgroundColor: "#607D8B", border: "0", color: "#fff" }}
-                className={common.button}
-                href="https://wgtwo.com">
-                Get Started for Free
-              </a>
-              <div className={styles.priceTierFeatures}>
-                <li>
-                  <CheckCircle2 /> For individuals and open source projects
-                </li>
-                <li>
-                  <CheckCircle2 /> 100 GB of cache transfer
-                </li>
-                <li>
-                  <CheckCircle2 /> Up to 80 cores for remote builds
-                </li>
-                <li>
-                  <CheckCircle2 /> Community support
-                </li>
+                per 365 days
               </div>
             </div>
 
@@ -57,48 +35,14 @@ function Index() {
                 href="https://wgtwo.com">
                 Get Started for Free
               </a>
-              <div className={styles.priceTierFeatures}>
-                <li>
-                  <CheckCircle2 /> For small teams and startups
-                </li>
-                <li>
-                  <CheckCircle2 /> $X / GB of cache transfer over 100 GB
-                </li>
-                <li>
-                  <CheckCircle2 /> Up to 800 cores for remote builds
-                </li>
-                <li>
-                  <CheckCircle2 /> Email support
-                </li>
-              </div>
             </div>
 
             <div className={styles.priceTier}>
-              <div className={styles.priceTierTitle}>Enterprise</div>
+              <div className={styles.priceTierTitle}>2,000,000 voice calls</div>
               <div className={styles.priceTierDescription}>
-                description here
+                2021
               </div>
-              <div className={styles.price}>Suited for your business</div>
-              <a className={`${common.button} ${common.buttonPrimary}`} href="/request-demo">
-                Request a Quote
-              </a>
-              <div className={styles.priceTierFeatures}>
-                <li>
-                  <CheckCircle2 /> Maximize developer productivity
-                </li>
-                <li>
-                  <CheckCircle2 /> SSO/SAML
-                </li>
-                <li>
-                  <CheckCircle2 /> Unlimited Cores of RBE
-                </li>
-                <li>
-                  <CheckCircle2 /> Isolated infrastructure
-                </li>
-                <li>
-                  <CheckCircle2 /> Dedicated support engineer & SLAs
-                </li>
-              </div>
+              
             </div>
           </div>
         </div>

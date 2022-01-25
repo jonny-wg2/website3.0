@@ -15,7 +15,7 @@ function Index() {
             <div className={common.centeredText}>
               <div className={common.title}>Advancing your mobile core. <br></br>Empowering developers.</div>
               <div className={common.subtitle}>
-              It’s a turn key solution, fully self serviced, with no need for additional integration.
+              The Product Ecosystem is a turn key solution that scales across operators, fully self serviced, with no need for additional integration. It makes it possible for you to do product innovation and also get access to the growing number of products and services from 3rd party developers that join the platform. All products are available and ready to get launched, monetized, and supported at the click of a button.
               </div>
             </div>
           </div>
@@ -25,7 +25,7 @@ function Index() {
             <div className={styles.priceTier}>
               <div className={styles.priceTierTitle}>Developer Portal</div>
               <div className={styles.priceTierDescription}>
-                Developer portal allows ...... lkjsdf lkj sdflkj sdlfkj sdflkj sdflkj sdlfkj sdlfkjsd flkjsdf 
+              Register as a developer on the <b>wgtwo</b> Developer Portal to build products leveraging core network events and media streams.
                 <Image
                 alt="Developer Portal site"
                 className={styles.image}
@@ -33,7 +33,7 @@ function Index() {
               />
               </div>
               
-              <div className={styles.price}>Free</div>
+              <div className={styles.price}>Create your API key today </div>
               <a
                 style={{ backgroundColor: "#607D8B", border: "0", color: "#fff" }}
                 className={common.button}
@@ -45,7 +45,13 @@ function Index() {
                   <CheckCircle2 /> For 3rd party developers or operators
                 </li>
                 <li>
-                  <CheckCircle2 /> Access to telco APIs including SMS, MMS, Voice
+                  <CheckCircle2 /> Create a product for operators to enable as a default feature
+                </li>
+                <li>
+                  <CheckCircle2 /> Create a product for individuals
+                </li>
+                <li>
+                  <CheckCircle2 /> Access to telco APIs including Authentication, Events, Data, Subscription profiles, Messaging, and Voice
                 </li>
               </div>
             </div>
@@ -76,7 +82,7 @@ function Index() {
             <div className={styles.priceTier}>
               <div className={styles.priceTierTitle}>Storefront</div>
               <div className={styles.priceTierDescription}>
-                A platform to market your application to customers across wgtwo operators.
+                Your platform to market your application to customers across <b>wgtwo</b> operators.
                 <Image
                 alt="wgtwo storefront"
                 className={styles.image}
@@ -95,10 +101,10 @@ function Index() {
                   <CheckCircle2 /> Approved and secure applications
                 </li>
                 <li>
-                  <CheckCircle2 /> Adding new features to your mobile subscription
+                  <CheckCircle2 /> Let your subscribers self service on products
                 </li>
                 <li>
-                  <CheckCircle2 /> Cross operators
+                  <CheckCircle2 /> Let your subscribers add products when buying a SIM, and/or let them add more products later
                 </li>
               </div>
             </div>
