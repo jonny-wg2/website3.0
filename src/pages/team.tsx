@@ -50,11 +50,11 @@ function Team() {
         <div className={common.section}>
           <div className={common.container}>
             <div className={common.centeredText}>
-              <div className={common.title}>We're deeply passionate about making a future telco core network.</div>
+              <div className={common.title}>Scandinavian rooted startup making a future telco core network.</div>
               <div className={common.subtitle}>
                 <br />
                 <b>We're based in Europe. </b>
-                Prior to starting Working Group Two — we collectively spent over a decade at Google, PWC, Ericsson and more.
+                Prior to starting Working Group Two — we collectively spent over a decade at Telenor, Google, PWC, Ericsson and more.
               </div>
             </div>
           </div>

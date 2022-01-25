@@ -104,67 +104,146 @@ function Index() {
         </div>
         <div className={common.container}>
           <div className={common.centeredText}>
-            <div className={common.title}>Compare plans & features</div>
+            <div className={common.title}>Our tech</div>
           </div>
         </div>
         <div className={common.container}>
           <div className={styles.featureGrid}>
-            <div className={styles.featureGridHeader}>Basics</div>
-            <div className={styles.featureGridHeader}>Personal</div>
+            <div className={styles.featureGridHeader}>Messaging</div>
+            <div className={styles.featureGridHeader}>Voice</div>
             <div className={styles.featureGridHeader}>Team</div>
-            <div className={styles.featureGridHeader}>Enterprise</div>
+            <div className={styles.featureGridHeader}>Data</div>
 
-            <div>Users</div>
-            <div>3</div>
+            <div>SMSC</div>
+            <div>G-MSC</div>
             <div>Unlimited</div>
-            <div>Unlimited</div>
+            <div>GGSN/PGW</div>
 
-            <div>Builds</div>
+            <div>SMS router</div>
+            <div>SBC</div>
             <div>Unlimited</div>
-            <div>Unlimited</div>
-            <div>Unlimited</div>
+            <div>S-GW</div>
 
-            <div>SSO / SAML</div>
+            <div>SMS GW</div>
+            <div>MTAS/SCC-AS</div>
             <No />
-            <No />
-            <Yes />
+            <div>MME</div>
 
-            <div>Invoice billing</div>
+            <div>SMPP GW</div>
+            <div>MRF</div>
             <No />
-            <No />
-            <Yes />
+            <div>DNS</div>
 
+            <div>IP-SM-GW</div>
+            <div>XCAP</div>
+            <No />
+            <div>ePDG</div>
             
+            <div>MMS proxy</div>
+            <div>LI-GW</div>
+            <No />
+            <div>CGNAT</div>
 
-            <div className={styles.featureGridHeader}>Support</div>
-            <div className={styles.featureGridHeader}>Personal</div>
+            <div>MMSC</div>
+            <div>SCP/IM-SSF</div>
+            <No />
+            <div>AMF</div>
+
+            <div>MMSC-GW</div>
+            <div>WebRTC</div>
+            <No />
+            <div>SMF</div>
+
+            <div>SMSF (roadmap)</div>
+            <div>VoNR (roadmap)</div>
+            <No />
+            <div>UPF</div>
+
+            <div>Voicemail</div>
+            <div>ePDG</div>
+            <No />
+            <No />
+
+            <div className={styles.featureGridHeader}>Connectivity</div>
+            <div className={styles.featureGridHeader}>Charging</div>
             <div className={styles.featureGridHeader}>Team</div>
-            <div className={styles.featureGridHeader}>Enterprise</div>
+            <div className={styles.featureGridHeader}>Signaling</div>
 
-            <div>Community support</div>
+            <div>HLR/HSS</div>
+            <div>Charging gateway</div>
             <Yes />
-            <Yes />
-            <Yes />
+            <div>STP</div>
 
-            <div>Email support</div>
+            <div>UDR</div>
+            <div>Real-time billing gateway</div>
             <No />
-            <Yes />
-            <Yes />
+            <div>DRA</div>
 
-            <div>Dedicated support engineer</div>
+            <div>AuC</div>
+            <div>CHF</div>
             <No />
-            <No />
-            <Yes />
+            <div>DEA</div>
 
-            <div>Shared Slack channel</div>
+            <div>UDM</div>
             <No />
             <No />
-            <Yes />
+            <div>Firewaling</div>
 
-            <div>99.9% uptime SLA</div>
+            <div>AUSF</div>
             <No />
             <No />
+            <No />
+
+            <div>AAA</div>
+            <No />
+            <No />
+            <No />
+
+            <div>AAA proxy</div>
+            <No />
+            <No />
+            <No />
+
+            <div>MNP/ENUM</div>
+            <No />
+            <No />
+            <No />
+
+            <div>XCAP</div>
+            <No />
+            <No />
+            <No />
+
+            <div>Entitlement server</div>
+            <No />
+            <No />
+            <No />
+
+            <div className={styles.featureGridHeader}>Policy</div>
+            <div className={styles.featureGridHeader}>Support</div>
+            <div className={styles.featureGridHeader}>Team</div>
+            <div className={styles.featureGridHeader}>API´s</div>
+
+            <div>Radius</div>
+            <div>Orchestration and automation</div>
             <Yes />
+            <div>APIs for developers</div>
+
+            <div>PCEF</div>
+            <div>Monitoring and alerting</div>
+            <Yes />
+            <div>Develop platform for 3rd party developers</div>
+
+            <div>PCRF</div>
+            <div>Customer service tools and portals</div>
+            <No />
+            <div>Storefront for operators</div>
+
+            <div>PCF</div>
+            <div>24/7 Level 3 On-call</div>
+            <No />
+            <No />
+
           </div>
         </div>
 

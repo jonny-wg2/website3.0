@@ -40,7 +40,7 @@ function Component() {
               <Globe2 className={styles.deploymentModelIcon} /> Telco SaaS
             </div>
             <div className={styles.deploymentModelDescription}>
-              Secure, developer friendly, next generator, and service-rich telecommunication platform that enables your business to succeed. End of life is the thing of the past.
+              Secure, developer friendly, next generation, and service-rich telecommunication platform that enables your business to succeed. End of life is the thing of the past.
             </div>
           </div>
         </div>
