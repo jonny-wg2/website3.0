@@ -14,6 +14,7 @@ function Index() {
           <div className={common.container}>
             <div className={common.centeredText}>
               <div className={common.title}>Advancing your mobile core. <br></br>Empowering developers.</div>
+              <br />
               <div className={common.subtitle}>
               The Product Ecosystem is a turn key solution that scales across operators, fully self serviced, with no need for additional integration. It makes it possible for you to do product innovation and also get access to the growing number of products and services from 3rd party developers that join the platform. All products are available and ready to get launched, monetized, and supported at the click of a button.
               </div>
