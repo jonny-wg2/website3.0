@@ -111,43 +111,6 @@ function Index() {
           </div>
         </div>
 
-        <div className={common.container}>
-          <div className={common.centeredText}>
-            <div className={common.title}>Questions & Answers</div>
-          </div>
-        </div>
-        <div className={common.container}>
-          <div className={styles.questions}>
-            <div className={styles.question}>
-              <div className={styles.questionQuestion}>What is the product ecosystem?</div>
-              <div className={styles.answerAnswer}>
-              Up until now, all mobile subscriptions have been the same.
-              Going forward, this is going to change. Telecom operators on the wgtwo platform will be able to offer a much richer user experience to their customers – and even let them configure their own subscriptions giving them the freedom to add the products that meet their needs.
-              With the wgtwo Developer Portal and APIs, developers will build and launch their great products on the wgtwo platform that will delight both you and your customers.
-              Any operator can launch these great products without using any technical or project resources – a huge savings for you. Just use our self-service Operator Console to add the products that will bring value to your business. Want to learn more, or see a live demo? Talk to us here!
-              </div>
-            </div>
-            <div className={styles.question}>
-              <div className={styles.questionQuestion}>Do you have an SMS API?</div>
-              <div className={styles.answerAnswer}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut facilisis velit, ac vehicula justo. Etiam ac nulla eu ex lobortis dignissim. Ut porttitor mi nisl, et lacinia sapien sagittis sit amet. Vestibulum vitae ex odio. Proin at nunc vitae massa ullamcorper vehicula in eu enim. Aliquam erat volutpat. Nulla sapien tellus, condimentum vel est quis, aliquet sagittis felis. Phasellus sagittis leo a posuere bibendum. Cras in aliquam dui, ut porttitor ex. Phasellus convallis ipsum non gravida tincidunt. 
-              </div>
-            </div>
-            <div className={styles.question}>
-              <div className={styles.questionQuestion}>What are existing apps??</div>
-              <div className={styles.answerAnswer}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut facilisis velit, ac vehicula justo. Etiam ac nulla eu ex lobortis dignissim. Ut porttitor mi nisl, et lacinia sapien sagittis sit amet. Vestibulum vitae ex odio. Proin at nunc vitae massa ullamcorper vehicula in eu enim. Aliquam erat volutpat. Nulla sapien tellus, condimentum vel est quis, aliquet sagittis felis. Phasellus sagittis leo a posuere bibendum. Cras in aliquam dui, ut porttitor ex. Phasellus convallis ipsum non gravida tincidunt. 
-              </div>
-            </div>
-            <div className={styles.question}>
-              <div className={styles.questionQuestion}>What if I have more questions?</div>
-              <div className={styles.answerAnswer}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut facilisis velit, ac vehicula justo. Etiam ac nulla eu ex lobortis dignissim. Ut porttitor mi nisl, et lacinia sapien sagittis sit amet. Vestibulum vitae ex odio. Proin at nunc vitae massa ullamcorper vehicula in eu enim. Aliquam erat volutpat. Nulla sapien tellus, condimentum vel est quis, aliquet sagittis felis. Phasellus sagittis leo a posuere bibendum. Cras in aliquam dui, ut porttitor ex. Phasellus convallis ipsum non gravida tincidunt. 
-              </div>
-            </div>
-          </div>
-        </div>
-
         <CTA />
       </div>
     </Layout>
