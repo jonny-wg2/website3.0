@@ -6,6 +6,7 @@ import TechnologyMetricList from "../components/technologymetrics/technologymetr
 import { Check, CheckCircle2 } from "lucide-react";
 import CTA from "../components/cta/cta";
 import Multig from "../components/multig/multig";
+import Ourservice from "../components/ourservice/ourservice";
 import contact from "./contact.module.css";
 import Image from "@theme/IdealImage";
 
@@ -180,7 +181,12 @@ function Index() {
 
           </div>
         </div>
-                
+
+        <Ourservice />
+        <br />  
+        <br />  
+        <br />  
+        <br />  
         <div className={common.container}>
           <div className={common.centeredText}>
             <div className={common.title}>Questions & Answers</div>
@@ -212,6 +218,18 @@ function Index() {
             </div>
             <div className={styles.question}>
               <div className={styles.questionQuestion}>Do I have to worry about your core network going end of life?</div>
+              <div className={styles.answerAnswer}>
+                todo
+              </div>
+            </div>
+            <div className={styles.question}>
+              <div className={styles.questionQuestion}>Security?</div>
+              <div className={styles.answerAnswer}>
+                todo
+              </div>
+            </div>
+            <div className={styles.question}>
+              <div className={styles.questionQuestion}>Voice related?</div>
               <div className={styles.answerAnswer}>
                 todo
               </div>
