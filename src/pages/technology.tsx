@@ -209,10 +209,9 @@ function Index() {
               </div>
             </div>
             <div className={styles.question}>
-              <div className={styles.questionQuestion}>How much does <b>wgtwo</b>> core cost??</div>
+              <div className={styles.questionQuestion}>Do I have to worry about your core network going end of life?</div>
               <div className={styles.answerAnswer}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut facilisis velit, ac vehicula justo. Etiam ac nulla eu ex lobortis dignissim. Ut porttitor mi nisl, et lacinia sapien sagittis sit amet. Vestibulum vitae ex odio. Proin at nunc vitae massa ullamcorper vehicula in eu enim. Aliquam erat volutpat. Nulla sapien tellus, condimentum vel est quis, aliquet sagittis felis. Phasellus sagittis leo a posuere bibendum. Cras in aliquam dui, ut porttitor ex. Phasellus convallis ipsum non gravida tincidunt.
-              </div>
+              Hyper-scalers are able to serve the biggest enterprises as well as the smallest start-ups. There is no reason the same cannot be done for mobile operators. By taking an API first approach, we have built a MNO grade mobile core with rich functionality that can also scale down to private networks and small operators.              </div>
             </div>
           </div>
         </div>
