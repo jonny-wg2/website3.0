@@ -193,13 +193,17 @@ function Index() {
             <div className={styles.question}>
               <div className={styles.questionQuestion}>What do I gain when migrating my subscribers to wgtwo?</div>
               <div className={styles.answerAnswer}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut facilisis velit, ac vehicula justo. Etiam ac nulla eu ex lobortis dignissim. Ut porttitor mi nisl, et lacinia sapien sagittis sit amet. Vestibulum vitae ex odio. Proin at nunc vitae massa ullamcorper vehicula in eu enim. Aliquam erat volutpat. Nulla sapien tellus, condimentum vel est quis, aliquet sagittis felis. Phasellus sagittis leo a posuere bibendum. Cras in aliquam dui, ut porttitor ex. Phasellus convallis ipsum non gravida tincidunt.
-              </div>
+              <b>Operational simplicity</b>: Operators get the services in a managed SaaS model. This implies that we take care of operations, 24/7, upgrades, tickets, moving the operator to the next generation of technology  and more.
+              <br /><b>Architectural simplicity</b>: The core is built with inspiration from hyperscalers and modern technology companies. We terminate teleco complexity at the edge of the network, which drives simplicity and efficiency on the inside of the network.
+              <br /><b>Financial simplicity</b>: A set-up fee and a SIM fee. Those two elements generally cover our main agreement. We aim for a simple and transparent price annex.
+              <br /><b>Affordability</b>: The choice of operating model, architecture and technology drive radical cost savings that are passed on to our customers.
+              <br /><b>Faster and lower risk delivery</b>: Through pre-integrating all the various functions and nodes, we reduce cost, complexity and time involved in integration and deployment.
+              <br /><b>Innovation</b>: The next “G” in telecom is always significant, but it doesn’t allow one operator to stand out from the rest. We provide operators the ability to do micro-innovation at scale, allowing the launch of many products to fit many segments.              </div>
             </div>
             <div className={styles.question}>
-              <div className={styles.questionQuestion}>Does wgtwo deliver a complete mobile core network with operations and a an SLA?</div>
+              <div className={styles.questionQuestion}>How many subscribers does wgtwo core support?</div>
               <div className={styles.answerAnswer}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut facilisis velit, ac vehicula justo. Etiam ac nulla eu ex lobortis dignissim. Ut porttitor mi nisl, et lacinia sapien sagittis sit amet. Vestibulum vitae ex odio. Proin at nunc vitae massa ullamcorper vehicula in eu enim. Aliquam erat volutpat. Nulla sapien tellus, condimentum vel est quis, aliquet sagittis felis. Phasellus sagittis leo a posuere bibendum. Cras in aliquam dui, ut porttitor ex. Phasellus convallis ipsum non gravida tincidunt.
+              Our core provides operators with a flexible, affordable, fully featured MNO-grade core that can scale down to small private network deployments, and up to multi-million operators.
               </div>
             </div>
             <div className={styles.question}>
@@ -211,10 +215,13 @@ function Index() {
             <div className={styles.question}>
               <div className={styles.questionQuestion}>Do I have to worry about your core network going end of life?</div>
               <div className={styles.answerAnswer}>
-              Hyper-scalers are able to serve the biggest enterprises as well as the smallest start-ups. There is no reason the same cannot be done for mobile operators. By taking an API first approach, we have built a MNO grade mobile core with rich functionality that can also scale down to private networks and small operators.              </div>
+                todo
+              </div>
             </div>
           </div>
         </div>
+        <br />
+        <br />
 
         <div className={`${common.section} ${common.sectionDark}`}>
           <div className={`${common.container} ${common.splitContainer}`}>

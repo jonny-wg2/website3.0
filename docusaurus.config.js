@@ -55,6 +55,12 @@ module.exports = {
           position: "left",
         },
         {
+          href: "/team/",
+          activeBasePath: "/team/",
+          label: "We are hiring 🎉",
+          position: "right",
+        },
+        {
           href: "/blog/",
           activeBasePath: "/blog/",
           label: "Blog",
