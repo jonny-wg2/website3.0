@@ -6,7 +6,15 @@ import TechnologyMetricList from "../components/technologymetrics/technologymetr
 import { Check, CheckCircle2 } from "lucide-react";
 import CTA from "../components/cta/cta";
 import Multig from "../components/multig/multig";
+import contact from "./contact.module.css";
 import Image from "@theme/IdealImage";
+
+let form = {
+  name: React.createRef<HTMLInputElement>(),
+  email: React.createRef<HTMLInputElement>(),
+  message: React.createRef<HTMLInputElement>(),
+  button: React.createRef<HTMLButtonElement>(),
+};
 
 function Index() {
   return (
@@ -15,16 +23,17 @@ function Index() {
         <div className={common.section}>
           <div className={common.container}>
             <div className={common.centeredText}>
-              <div className={common.title}>Let's dig into our core</div>
+              <div className={common.title}>Let's dig into our core.</div>
               <div className={common.subtitle}>
                 <br />
+                <b>wgtwo</b> is building a future proof technology that reduces cost and complexity while radically enhancing innovation potential in the telecom industry.
                 Our core is continuously evolving. We improve its security, scalability, redundancy, features, and integrations every day. Leveraging a modern DevSecOps approach, our customers get a continuously improving core network.
               </div>
             </div>
           </div>
         </div>
         
-        <div className={`${common.section} ${common.sectionDark} ${common.sectionLessBottom} ${styles.technologyMetricsSection}`}>
+        <div className={`${common.section} ${common.sectionDark} ${styles.technologyMetricsSection}`}>
           <div className={common.container}>
             <h1>In 2021, we helped our customers deliver</h1>
             <TechnologyMetricList />
@@ -208,7 +217,25 @@ function Index() {
           </div>
         </div>
 
-        <CTA />
+        <div className={`${common.section} ${common.sectionDark}`}>
+          <div className={`${common.container} ${common.splitContainer}`}>
+            <div className={common.text}>
+              <div className={common.title}>You still have a question in mind?</div>
+              <div className={common.subtitle}>We love to tell you more!</div>
+            </div>
+            <div className={contact.form}>
+              <input ref={form.name} placeholder="Name" />
+              <input ref={form.email} placeholder="Email address" />
+              <input ref={form.message} placeholder="Message" className={contact.span2} />
+              <button
+                ref={form.button}
+                onClick={() => sendMessage()}
+                className={`${common.button} ${common.buttonPrimary} ${contact.span2}`}>
+                Submit your message
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   );
@@ -224,6 +251,19 @@ function Yes() {
       <Check color="#4CAF50" />
     </div>
   );
+}
+
+function sendMessage() {
+  message(
+    `New question from Technology page!\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nRepo URL: ${form.message.current.value}`
+  );
+
+  form.name.current.disabled = true;
+  form.email.current.disabled = true;
+  form.message.current.disabled = true;
+
+  form.button.current.innerText = "New Case Study Submitted!";
+  form.button.current.disabled = true;
 }
 
 export default Index;

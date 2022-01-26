@@ -6,12 +6,12 @@ const technologyMetrics = [
   { name: "2,000,000", description: "SMSs",},
   { name: "20,000,000", description: "Voice calls",},
   { name: "500tb", description: "Data transfer",},
-  { name: "2,000,000", description: "SMSs",},
-  { name: "20,000,000", description: "Voice calls",},
+  { name: "2,000,000", description: "Authentication Requests",},
+  { name: "20,000,000", description: "API calls",},
   { name: "500tb", description: "Data transfer",},
   { name: "2,000,000", description: "SMSs",},
   { name: "20,000,000", description: "Voice calls",},
-  { name: "500tb", description: "Data transfer",},
+  { name: "500tb", description: "Voicemails",},
 
 ];
 

@@ -66,7 +66,7 @@ function sendMessage() {
   form.email.current.disabled = true;
   form.repo.current.disabled = true;
 
-  form.button.current.innerText = "Repo Submitted!";
+  form.button.current.innerText = "New Case Study Submitted!";
   form.button.current.disabled = true;
 }
 
