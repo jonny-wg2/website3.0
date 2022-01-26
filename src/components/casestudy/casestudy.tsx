@@ -13,10 +13,7 @@ function Component() {
             Adapting to your use case <span className={styles.heart}>&hearts;</span>
           </div>
           <div className={styles.subtitle}>
-            <b>wgtwo</b> provides the platform with flexible {" "}
-            <a target="_blank" className={styles.link} href="/technology">
-              APIs,
-            </a>{" "}
+            <b>wgtwo</b> provides the platform with flexible APIs,
             allowing all customer segments to migrate to our core network. To learn more about how we are changing the game
             in the telecommunication space, check out the case studies to see how we can help your company. Our goal is to drive innovation and growth for your business.
           </div>

@@ -27,7 +27,8 @@ function Index() {
               <div className={common.title}>Let's dig into our core.</div>
               <div className={common.subtitle}>
                 <br />
-                <b>wgtwo</b> is building a future proof technology that reduces cost and complexity while radically enhancing innovation potential in the telecom industry.
+                <b>wgtwo</b> is building a future proof technology that reduces
+                 cost and complexity while radically enhancing innovation potential in the telecom industry.
                 Our core is continuously evolving. We improve its security, scalability, redundancy, features, and integrations every day. Leveraging a modern DevSecOps approach, our customers get a continuously improving core network.
               </div>
             </div>
