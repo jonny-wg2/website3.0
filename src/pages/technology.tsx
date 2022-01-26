@@ -179,8 +179,6 @@ function Index() {
             <No />
 
           </div>
-          <Image alt="Network Diagram" img={require("../../static/img/simplified-network-diagram.png")} />
-            <p>Simplified functional overview - 2G/3G/4G/5G NSA/5G</p>
         </div>
                 
         <div className={common.container}>
