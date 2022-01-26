@@ -90,6 +90,10 @@ div.featureGridHeader {
   font-weight: 700;
 }
 
+.technologyMetricsSection {
+  padding-top: 64px;
+}
+
 /** Disable self service Tier for now */
 
 .priceTiers {

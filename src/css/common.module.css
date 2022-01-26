@@ -101,6 +101,18 @@
   margin-bottom: 16px;
 }
 
+.pillTechnology {
+  background-color: #b3e5fc;
+  color: #141414;
+  padding: 0px 16px;
+  /* display: inline-block; */
+  font-size: 16px;
+  font-style: italic;
+  /* font-weight: 600; */
+  border-radius: 16px;
+  float: left;
+}
+
 @media (max-width: 600px) {
   div.title {
     font-size: 48px;

@@ -2,8 +2,11 @@ import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./technology.module.css";
 import common from "../css/common.module.css";
+import TechnologyMetricList from "../components/technologymetrics/technologymetrics-list";
 import { Check, CheckCircle2 } from "lucide-react";
 import CTA from "../components/cta/cta";
+import Multig from "../components/multig/multig";
+import Image from "@theme/IdealImage";
 
 function Index() {
   return (
@@ -12,45 +15,23 @@ function Index() {
         <div className={common.section}>
           <div className={common.container}>
             <div className={common.centeredText}>
-              <div className={common.title}>One platform to scale your company.</div>
-            </div>
-          </div>
-        </div>
-        <div className={common.container}>
-          <div className={styles.priceTiers}>
-            <div className={styles.priceTier}>
-              <div className={styles.priceTierTitle}>3,000,000 SMS</div>
-              <div className={styles.priceTierDescription}>
-                per 365 days
+              <div className={common.title}>Let's dig into our core</div>
+              <div className={common.subtitle}>
+                <br />
+                Our core is continuously evolving. We improve its security, scalability, redundancy, features, and integrations every day. Leveraging a modern DevSecOps approach, our customers get a continuously improving core network.
               </div>
             </div>
-
-            <div className={styles.priceTier}>
-              <div className={styles.priceTierTitle}>Team</div>
-              <div className={styles.priceTierDescription}>Team Description</div>
-              <div className={styles.price}>Pay-as-you-go</div>
-              <a
-                className={common.button}
-                style={{ backgroundColor: "#2196F3", border: "0", color: "#fff" }}
-                href="https://wgtwo.com">
-                Get Started for Free
-              </a>
-            </div>
-
-            <div className={styles.priceTier}>
-              <div className={styles.priceTierTitle}>2,000,000 voice calls</div>
-              <div className={styles.priceTierDescription}>
-                2021
-              </div>
-              
-            </div>
           </div>
         </div>
-        <div className={common.container}>
-          <div className={common.centeredText}>
-            <div className={common.title}>Our tech</div>
+        
+        <div className={`${common.section} ${common.sectionDark} ${common.sectionLessBottom} ${styles.technologyMetricsSection}`}>
+          <div className={common.container}>
+            <h1>In 2021, we helped our customers deliver</h1>
+            <TechnologyMetricList />
           </div>
         </div>
+        <Multig />
+        
         <div className={common.container}>
           <div className={styles.featureGrid}>
             <div className={styles.featureGridHeader}>Messaging</div>
@@ -189,8 +170,10 @@ function Index() {
             <No />
 
           </div>
+          <Image alt="Network Diagram" img={require("../../static/img/simplified-network-diagram.png")} />
+            <p>Simplified functional overview - 2G/3G/4G/5G NSA/5G</p>
         </div>
-
+                
         <div className={common.container}>
           <div className={common.centeredText}>
             <div className={common.title}>Questions & Answers</div>
@@ -199,25 +182,25 @@ function Index() {
         <div className={common.container}>
           <div className={styles.questions}>
             <div className={styles.question}>
-              <div className={styles.questionQuestion}>What happens if I go over my limit?</div>
+              <div className={styles.questionQuestion}>What do I gain when migrating my subscribers to wgtwo?</div>
               <div className={styles.answerAnswer}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut facilisis velit, ac vehicula justo. Etiam ac nulla eu ex lobortis dignissim. Ut porttitor mi nisl, et lacinia sapien sagittis sit amet. Vestibulum vitae ex odio. Proin at nunc vitae massa ullamcorper vehicula in eu enim. Aliquam erat volutpat. Nulla sapien tellus, condimentum vel est quis, aliquet sagittis felis. Phasellus sagittis leo a posuere bibendum. Cras in aliquam dui, ut porttitor ex. Phasellus convallis ipsum non gravida tincidunt.
               </div>
             </div>
             <div className={styles.question}>
-              <div className={styles.questionQuestion}>Which plan is right for me?</div>
+              <div className={styles.questionQuestion}>Does wgtwo deliver a complete mobile core network with operations and a an SLA?</div>
               <div className={styles.answerAnswer}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut facilisis velit, ac vehicula justo. Etiam ac nulla eu ex lobortis dignissim. Ut porttitor mi nisl, et lacinia sapien sagittis sit amet. Vestibulum vitae ex odio. Proin at nunc vitae massa ullamcorper vehicula in eu enim. Aliquam erat volutpat. Nulla sapien tellus, condimentum vel est quis, aliquet sagittis felis. Phasellus sagittis leo a posuere bibendum. Cras in aliquam dui, ut porttitor ex. Phasellus convallis ipsum non gravida tincidunt.
               </div>
             </div>
             <div className={styles.question}>
-              <div className={styles.questionQuestion}>What are my deployment options?</div>
+              <div className={styles.questionQuestion}>How much does a normal integration take?</div>
               <div className={styles.answerAnswer}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut facilisis velit, ac vehicula justo. Etiam ac nulla eu ex lobortis dignissim. Ut porttitor mi nisl, et lacinia sapien sagittis sit amet. Vestibulum vitae ex odio. Proin at nunc vitae massa ullamcorper vehicula in eu enim. Aliquam erat volutpat. Nulla sapien tellus, condimentum vel est quis, aliquet sagittis felis. Phasellus sagittis leo a posuere bibendum. Cras in aliquam dui, ut porttitor ex. Phasellus convallis ipsum non gravida tincidunt.
               </div>
             </div>
             <div className={styles.question}>
-              <div className={styles.questionQuestion}>What if I have more questions?</div>
+              <div className={styles.questionQuestion}>How much does <b>wgtwo</b>> core cost??</div>
               <div className={styles.answerAnswer}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut facilisis velit, ac vehicula justo. Etiam ac nulla eu ex lobortis dignissim. Ut porttitor mi nisl, et lacinia sapien sagittis sit amet. Vestibulum vitae ex odio. Proin at nunc vitae massa ullamcorper vehicula in eu enim. Aliquam erat volutpat. Nulla sapien tellus, condimentum vel est quis, aliquet sagittis felis. Phasellus sagittis leo a posuere bibendum. Cras in aliquam dui, ut porttitor ex. Phasellus convallis ipsum non gravida tincidunt.
               </div>
