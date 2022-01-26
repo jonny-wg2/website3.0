@@ -26,7 +26,7 @@ function Component() {
         </div>
         <div className={styles.image}>
           <Image alt="wgtwo hero image" img={require("../../../static/img/wgtwo-skier-1.png")} />
-          <p style={{fontSize: "12px"}}><a target="_blank" href="https://en.wikipedia.org/wiki/Torleiv_Maseng">Torleiv Maseng</a> - <i> 1980s Norwegian researcher, developing a Radio sub-system for GSM. </i></p>
+          <p style={{fontSize: "12px"}}><a target="_blank" href="https://en.wikipedia.org/wiki/Torleiv_Maseng">Torleiv Maseng</a> - <i> 1980s Norwegian researcher, developing a radio sub-system for GSM. </i></p>
         </div>
       </div>
     </div>
