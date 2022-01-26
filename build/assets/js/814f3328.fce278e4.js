@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"CKH IOD selects Working Group Two for public cloud core network","permalink":"/blog/ckh-iod-wg2-public-cloud"}]}')}}]);
