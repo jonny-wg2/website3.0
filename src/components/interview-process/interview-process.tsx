@@ -18,6 +18,11 @@ function Component() {
           During each step we will be clear about what we would like to know about you. We leave the how you want to show off your skills up to you!  
           Phone, video conference, or face to face all works for us. And of course, we will cover all your travel expenses.
           </div>
+          {/* <div className={common.container}>
+            <a href="/case-studies" className={`${common.button} ${common.buttonPrimary} ${contact.span2}`}>
+              See all case studies
+            </a>
+          </div> */}
         </div>
         <div className={styles.deploymentModels}>
           <div className={`${styles.deploymentModel} ${styles.panel}`}>
