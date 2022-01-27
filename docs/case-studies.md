@@ -1,7 +1,7 @@
 ---
 id: case-studies
 title: small operators
-sidebar_label: small Operators
+sidebar_label: Small Operators
 ---
 
 :::tip Mobile network operators 
