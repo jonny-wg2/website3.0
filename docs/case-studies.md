@@ -1,6 +1,6 @@
 ---
 id: case-studies
-title: small operators
+title: Small operators
 sidebar_label: Small Operators
 ---
 
