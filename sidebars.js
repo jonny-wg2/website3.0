@@ -9,6 +9,7 @@ module.exports = {
     CaseStudies: [
       "case-studies",
       "adjacent-cores-for-operators", 
+      "small-operators",
       "mvnx",
       "mvno",
       "mvne",
