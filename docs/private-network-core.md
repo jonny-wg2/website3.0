@@ -1,13 +1,12 @@
 ---
 id: private-network-core
-title: Private Network Core
+title: A core for your private network
 sidebar_label: Private Network Core
 ---
 
-## A core for your private network
-
-## Private networks are a booming part of telecom. Use cases related to latency, security, and stability drive demand for smaller mobile networks. However, mobile networks are complex to manage. According to a study made by Omdia 9 out of 10 enterprises are looking for someone to partner with in managing these networks.
-
+:::tip Private networks
+Private networks are a booming part of telecom. Use cases related to latency, security, and stability drive demand for smaller mobile networks. However, mobile networks are complex to manage. According to a study made by Omdia 9 out of 10 enterprises are looking for someone to partner with in managing these networks.
+:::
 
 Infrastructure hyperscalers can accommodate small start-ups as well as the biggest enterprises. Why can’t the same be true for core network providers?
 
