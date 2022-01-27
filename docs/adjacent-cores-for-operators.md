@@ -4,10 +4,9 @@ title: Adjacent Cores for Mobile Operator
 sidebar_label: Adjacent Cores for Mobile Operator
 ---
 
-## Setting up an adjacent core
-
-## Mobile Network Operators face the challenge of scalability on a daily basis. Highly complex networks that limit the number of use-cases and additional complexity they can take on is the norm.
-
+::: tip Setting up an adjacent core
+Mobile Network Operators face the challenge of scalability on a daily basis. Highly complex networks that limit the number of use-cases and additional complexity they can take on is the norm.
+:::
 
 In an ever changing marketplace onboarding new initiatives such as IoT, private or hybrid networks, SME products and targeting specific segments are key to staying ahead. Yet it often does not get prioritized as it requires customization that the economics or complexity of traditional networks simply does not allow for.
 
