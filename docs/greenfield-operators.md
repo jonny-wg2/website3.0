@@ -4,9 +4,9 @@ title: Greenfield Operators
 sidebar_label: Greenfield Operators
 ---
 
-## Greenfield operators
-
-## Mobile network operators, especially greenfield operators with limited scale and lack of internal technology teams, are often overwhelmed by the complexity of getting even the basic services to work at an affordable cost.
+:::tip Greenfield operators
+Mobile network operators, especially greenfield operators with limited scale and lack of internal technology teams, are often overwhelmed by the complexity of getting even the basic services to work at an affordable cost.
+:::
 
 By taking a radically different approach we can create a pre-integrated solution that makes the complex simple. Services that require integration between multiple nodes becomes a simple API call. With pre-integrated offerings time-to-market is radically reduced, cost is made affordable and service richness is ensured. Making the complex simple is an important part of the future of telecom.
 
