@@ -20,6 +20,6 @@ The overarching goal has always been to create a radically innovative, radically
 
 Since the start in 2017 the company has gone through several steps of development, and already in five months after launching we took our concept commercially live. Since then we have expanded scope to now offer a full mobile MNO core. We take a unique approach of building a platform for mobile operators where they can share in the benefits of an ecosystem. We are also one of the few operators in the world operating a mobile core at commercial scale out of hyper-scaler infrastructure.
 
-## What is the concept behind the platform?
-
-<iframe width="675" height="380" src="https://drive.google.com/file/d/1qY8BwLTg4uj6N9zCFmXREbXF0f6hMLPB/view" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## The man behind the name
+![](images/wgtwo-skier-1.png)  
+[Torleiv Maseng](https://en.wikipedia.org/wiki/Torleiv_Maseng) - 1980s Norwegian researcher, developing a radio sub-system for GSM.
