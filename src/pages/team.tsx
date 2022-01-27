@@ -6,40 +6,34 @@ import Image from "@theme/IdealImage";
 
 const teamMembers = [
   {
-    name: "Oslo - HQ",
-    email: "Contact details here",
-    blurb: "Some text here.",
-    image: "image-coming-soon.png",
+    name: "Oslo",
+    slogan: "Let's go skiing ⛷",
+    letter: "O",
   },
   {
     name: "Trondheim",
-    email: "Contact details here",
-    blurb: "Some text here.",
-    image: "image-coming-soon.png",
+    slogan: "Nice stash 🥸",
+    letter: "T",
   },
   {
     name: "Stockholm",
-    email: "Contact details here",
-    blurb: "Some text here.",
-    image: "image-coming-soon.png",
+    slogan: "Time for a fika ☕️",
+    letter: "S",
   },
   {
     name: "Berlin",
-    email: "Contact details here",
-    blurb: "Some text here.",
-    image: "image-coming-soon.png",
+    slogan: "Dickes B für Bier 🍻",
+    letter: "B",
   },
   {
     name: "Tokyo",
-    email: "Contact details here",
-    blurb: "Some text here.",
-    image: "image-coming-soon.png",
+    slogan: "寿司を食べましょう 🍱",
+    letter: "T",
   },
   {
     name: "Remote",
-    email: "Contact details here",
-    blurb: "Some text here.",
-    image: "image-coming-soon.png",
+    slogan: "Working from the couch 🛋",
+    letter: "R",
   },
 ];
 
@@ -50,11 +44,10 @@ function Team() {
         <div className={common.section}>
           <div className={common.container}>
             <div className={common.centeredText}>
-              <div className={common.title}>Scandinavian rooted startup making a future telco core network.</div>
+              <div className={common.title}>Scandinavian rooted startup building a future telco core network.</div>
               <div className={common.subtitle}>
                 <br />
-                <b>We're based in Europe. </b>
-                Prior to starting Working Group Two — we collectively spent over a decade at Telenor, Google, PWC, Ericsson and more.
+                <b>60+</b> engineers, <b>19+</b> different nationalities make up the <b>wgtwo</b> team. We collectively have spent decades at Telenor, Google, PWC, Ericsson, and more.
               </div>
             </div>
           </div>
@@ -63,12 +56,9 @@ function Team() {
           <div className={styles.team}>
             {shuffle(teamMembers).map((teamMember) => (
               <div className={styles.teamMember} key={teamMember.name}>
-                <div className={styles.teamMemberImage}>
-                  <Image img={require(`../../static/img/team/${teamMember.image}`)} />
-                </div>
+                <h1>{teamMember.letter}</h1>
                 <div className={styles.teamMemberName}>{teamMember.name}</div>
-                <div className={styles.teamMemberEmail}>{teamMember.email}</div>
-                <div className={styles.teamMemberBlurb}>{teamMember.blurb}</div>
+                <div className={styles.teamMemberslogan}>{teamMember.slogan}</div>
               </div>
             ))}
           </div>
@@ -107,6 +97,7 @@ function Team() {
                 View open positions
               </a>
             </div>
+            <Image className={styles.image} img={require("../../static/img/group-image.jpeg")} />
           </div>
         </div>
       </div>

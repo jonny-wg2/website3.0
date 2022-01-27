@@ -18,7 +18,6 @@ function Component() {
             in the telecommunication space, check out the case studies to see how we can help your company. Our goal is to drive innovation and growth for your business.
           </div>
         </div>
-        {/* <Image className={styles.image} img={require("../../../static/img/image-coming-soon.png")} /> */}
       </div>
       <hr className={styles.hr} />
       <div className={`${common.container} ${common.splitContainer} ${styles.caseStudyContainer}`}>
