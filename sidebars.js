@@ -1,7 +1,8 @@
 module.exports = {
   someSidebar: {
     "About Working Group Two": [
-      "introduction", 
+      "introduction",
+      "concept", 
       "integration", 
       "demos", 
     ],
