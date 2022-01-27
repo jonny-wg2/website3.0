@@ -3,7 +3,7 @@ module.exports = {
     "About Working Group Two": [
       "introduction",
       "concept", 
-      "integration", 
+      "working-with-wgtwo", 
       "demos", 
     ],
     CaseStudies: [
