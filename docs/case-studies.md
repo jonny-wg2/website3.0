@@ -1,5 +1,5 @@
 ---
-id: case-studies
+id: small-operators
 title: Small operators
 sidebar_label: Small Operators
 ---
