@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: WG2
+title: wgtwo - Working Group Two
 sidebar_label: Introduction
 ---
 ## About Us

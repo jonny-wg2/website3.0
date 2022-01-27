@@ -1,6 +1,6 @@
 ---
 id: integration
-title: Integrating to WG2
+title: Integrating to wgtwo
 sidebar_label: Integration
 ---
 
