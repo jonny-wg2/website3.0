@@ -44,6 +44,18 @@ function Component() {
             img={require("../../../static/img/ckh.png")}
           />
           <Image
+            alt="Atos Logo"
+            className={styles.logo}
+            style={{ padding: "20px 0", height: "80px" }}
+            img={require("../../../static/img/atos.png")}
+          />
+          <Image
+            alt="Televox Logo"
+            className={styles.logo}
+            style={{ padding: "20px 0" }}
+            img={require("../../../static/img/televox.png")}
+          />
+          <Image
             alt="University of Maryland Logo"
             className={styles.logo}
             style={{ padding: "20px 0" }}
@@ -66,6 +78,12 @@ function Component() {
             className={styles.logo}
             style={{ padding: "24px 0" }}
             img={require("../../../static/img/enghouse-networks.png")}
+          />
+          <Image
+            alt="Happybytes Logo"
+            className={styles.logo}
+            style={{ padding: "24px 0" }}
+            img={require("../../../static/img/happybytes.png")}
           />
           <Image
             alt="Telenor Logo"
