@@ -4,7 +4,7 @@ title: Hybrid Networks
 sidebar_label: Hybrid Networks
 ---
 
-:::tip Hybrid Networks
+:::info Hybrid Networks
 Regional operators that want national coverage, out-of-coverage factories that want their employees to be able to use their normal devices, and greenfield MNOs that want a bridge to a national network – these are all use-cases for hybrid networks.
 :::
 

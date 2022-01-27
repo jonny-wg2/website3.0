@@ -4,7 +4,7 @@ title: Small operators
 sidebar_label: Small Operators
 ---
 
-:::tip Mobile network operators 
+:::info Mobile network operators 
 Especially smaller operators are often overwhelmed by the complexity of getting even the basic services to work at an affordable cost. Getting VoLTE to work, having a call forked to a watch and a smartphone, home-routing of SMS, integrating with a lawful intercept solution, handling CS fallback, restricting the speed of a data connection, handling roaming, and integrating a PBX are examples of basic functionality that is complex to produce in a traditional network.
 :::
 

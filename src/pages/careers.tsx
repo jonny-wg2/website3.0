@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import common from "../css/common.module.css";
 import styles from "./careers.module.css";
+import InterviewProcess from "../components/interview-process/interview-process";
 import { ArrowRight } from "lucide-react";
 
 const careers = [
@@ -31,6 +32,7 @@ function Careers() {
             </div>
           </div>
         </div>
+        <InterviewProcess />
       </div>
     </Layout>
   );

@@ -4,7 +4,7 @@ title: Greenfield Operators
 sidebar_label: Greenfield Operators
 ---
 
-:::tip Greenfield operators
+:::info Greenfield operators
 Mobile network operators, especially greenfield operators with limited scale and lack of internal technology teams, are often overwhelmed by the complexity of getting even the basic services to work at an affordable cost.
 :::
 

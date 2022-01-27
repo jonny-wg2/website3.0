@@ -6,7 +6,7 @@ sidebar_label: Demos
 
 The **wgtwo** platform provides a framework for innovation. Over the years, we have built a few demos to help showcase the power of **wgtwo** APIs. 
 
-:::tip Want to see a demo firsthand?
+:::info Want to see a demo firsthand?
 Reach out to a sales engineer first hand at https://www.wgtwo.com/request-a-demo 
 :::
 ### Developer Portal

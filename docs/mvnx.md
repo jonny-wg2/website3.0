@@ -4,7 +4,7 @@ title: MVNx
 sidebar_label: MVNx
 ---
 
-:::tip 
+:::info 
 Mobile virtual operators of every kind face similar challenges. It is hard and expensive to build and operate your own core, and even harder to get a competitive advantage from it. A better way is now possible.
 :::
 
