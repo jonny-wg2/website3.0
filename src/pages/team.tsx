@@ -97,7 +97,7 @@ function Team() {
                 View open positions
               </a>
             </div>
-            <Image className={styles.image} img={require("../../static/img/group-image.jpeg")} />
+            <Image className={styles.groupImage} img={require("../../static/img/group-image.jpeg")} />
           </div>
         </div>
       </div>
