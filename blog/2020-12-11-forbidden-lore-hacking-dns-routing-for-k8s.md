@@ -76,7 +76,7 @@ In our initial tests from the laptop, this worked great. However it quickly tran
 # Solution 2c: nginx routes on auth header
 
 Getting nervous that we’d used a week to get nothing working, we started clutching at some very hacky straws. Even if docker-shim doesn’t send custom headers, we could see it sending auth headers, and we have different login details for Harbor versus the read-only registry. We wondered if we could route on the auth hash, postponing entirely the discussion about whether we should do such a horrible thing, or the security implications of having the auth hash in a plaintext nginx config.
-<iframe src="https://giphy.com/embed/I8RMi1UY8cEKs" height="274" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/I8RMi1UY8cEKs"  frameBorder="20px" class="giphy-embed" allowFullScreen></iframe>
 
 
 We soon discovered that this solution was also never going to work. In Kubernetes, it is the ``kubelet`` process that does the image pull at the start of a pod deployment, and after some wiresharking it turns out that the very first thing kubelet does is make an unauthenticated call to the `registry/v2` endpoint to fetch metadata which it then uses to begin authentication.
