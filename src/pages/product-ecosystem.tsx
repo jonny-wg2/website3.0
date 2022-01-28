@@ -118,16 +118,4 @@ function Index() {
   );
 }
 
-function No() {
-  return <div></div>;
-}
-
-function Yes() {
-  return (
-    <div className={styles.check}>
-      <Check color="#4CAF50" />
-    </div>
-  );
-}
-
 export default Index;

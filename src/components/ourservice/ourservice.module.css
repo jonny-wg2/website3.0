@@ -37,3 +37,16 @@
   margin-top: 32px;
   filter: brightness(0) invert(1);
 }
+
+.ourServiceFeatures {
+  margin-top: 32px;
+}
+
+.ourServiceFeatures li {
+  padding: 0;
+  margin-right: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
