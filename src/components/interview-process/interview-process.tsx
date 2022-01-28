@@ -31,7 +31,6 @@ const AccordionParent = (props) => {
 };
 
 function Component() {
-  // constant with your text
   const accordionData = [
     {
       card_number: "01",
