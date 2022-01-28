@@ -12,7 +12,7 @@ const teamMembers = [
   },
   {
     name: "Trondheim",
-    slogan: "Nice stash 🥸",
+    slogan: "Nice stashe 🥸",
     letter: "T",
   },
   {
