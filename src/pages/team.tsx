@@ -81,7 +81,7 @@ function Team() {
                 </div>
                 <div>
                   <a href="https://www.digitalalpha.net/" target="_blank">
-                    <img alt="Village Global" src="/img/digital-alpha-logo.png" />
+                    <img alt="Village Global" src="/img/digital-alpha-logo.png"/>
                   </a>
                 </div>
               </div>
