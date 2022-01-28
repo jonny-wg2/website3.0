@@ -6,7 +6,7 @@ import Apply from '../../components/apply/apply.tsx'
 
 # Infrastructure Engineer - Cloud Infrastructure
 
-<div className="pill"> Full-Time, Oslo, Trondheim, Stockholm & Remote</div>
+<div className="pill">Full-Time</div>  <div className="pill">All offices</div>  <div className="pill">Remote</div>
 
 Working Group Two is on a mission to make mobile subscriptions much more useful and relevant by providing programmable mobile networks for everyone. The way we do this is to change the way traditional telco works and to deliver mobile core network services from the cloud. This includes building a platform for mobile operators, controlling our own technology, enabling rapid iterations and focusing on the end-user experience. 
 
@@ -27,9 +27,6 @@ This is a unique opportunity to help shape modern telecommunications.
 - Likes to learn about new technologies and acquire new skills 
 - Holds yourself and others to a high bar when working with production
 - Is able to design and write high quality code and configuration in a relevant  language (e.g. Golang, Terraform).
-## Who you'll work with
-
-- Is this a good idea?  Who should be here?
 
 ## What's it like to work at Working Group Two?
 
