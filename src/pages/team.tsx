@@ -47,7 +47,7 @@ function Team() {
               <div className={common.title}>Scandinavian rooted startup building a future telco core network.</div>
               <div className={common.subtitle}>
                 <br />
-                <b>60+</b> engineers, <b>19+</b> different nationalities make up the <b>wgtwo</b> team. We collectively have spent decades at Telenor, Google, PWC, Ericsson, and more.
+                <b>60+</b> engineers, <b>19+</b> different nationalities make up the <b>wgtwo</b> team. We collectively have spent decades at Telenor, Telia, Ice, Google, PWC, Ericsson, and more.
               </div>
             </div>
           </div>
