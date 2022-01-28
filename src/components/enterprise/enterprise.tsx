@@ -31,7 +31,7 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>Voice</div>
             <div className={styles.featureDescription}>
-              Reliable voice SIP traffic across 2g, 3g, 4g (VoLTE).
+              Reliable voice SIP traffic across 2G, 3G, 4G (VoLTE).
             </div>
           </div>
           <div className={styles.feature}>
