@@ -112,7 +112,7 @@ function Component() {
           <h2 className={common.title}>Interview Process</h2>
           <div className={common.subtitle}>
             At <b>wgtwo</b> we believe in transparency and enabling our teams to
-            work in the way that best suits them. We see this as a strength in
+            work in the way that best suits them - even if that means working remotely from home five days a week. We see this as a strength in
             our company and want to apply the same principles to our recruitment
             process.
             <br />
