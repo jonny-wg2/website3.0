@@ -9,38 +9,32 @@ The **wgtwo** platform provides a framework for innovation. Over the years, we h
 :::info Want to see a demo firsthand?
 Reach out to a sales engineer first hand at https://www.wgtwo.com/request-a-demo 
 :::
-### Developer Portal
+#### Developer Portal
 
+Register as a developer on the **wgtwo** Developer Portal to build products leveraging core network events and media streams.  
 https://developer.wgtwo.com
 
-`Register as a developer on the **wgtwo** Developer Portal to build products leveraging core network events and media streams.`
+#### Console
 
-### Console
-
+Telecom operators on the **wgtwo** platform are able to configure their own subscriptions, giving them the freedom to add the products that meets their needs.  
 https://console.wgtwo.com
 
-`Telecom operators on the **wgtwo** platform are able to configure their own subscriptions, giving them the freedom to add the products that meets their needs.`
+#### Storefront
 
-### Storefront
-
+Your platform to market your application to customers across **wgtwo** operators.  
 https://storefront.wgtwo.com
 
-`Your platform to market your application to customers across wgtwo operators.`
+#### Softphone
 
-### Softphone
-
+Imagine making a GSM call through your browser.  
 https://softphone.dub.prod.wgtwo.com/
 
-`Imagine making a GSM call through your browser.`
+#### Textrules
 
-### Textrules
-
+Want to send a text tomorrow at 3pm to remind your spouse to pick up milk? Now you can.  
 https://textrules.dev.wgtwo.com
 
-`Want to send a text tomorow at 3pm to remind your spouse to pick up milk? Now you can.`
+#### Voicebox
 
-### Voicebox
-
+A smarter way to manage voicemail.  
 https://voicebox.cc
-
-`A smarter way to manage voicemail.`
