@@ -4,9 +4,7 @@ title: Hybrid Networks
 sidebar_label: Hybrid Networks
 ---
 
-:::info Hybrid Networks
 Regional operators that want national coverage, out-of-coverage factories that want their employees to be able to use their normal devices, and greenfield MNOs that want a bridge to a national network – these are all use-cases for hybrid networks.
-:::
 
 Create simple networks with national roaming and your own network coverage. Then, when the user moves out of coverage of your own network, they leverage national roaming with one of the national operators. Implemented correctly you can create a consistent user-experience across the various networks, leveraging both the traditional telecom services like voice and messaging, and more additional functionalities such as mobile switchboards.
 
