@@ -59,6 +59,8 @@
 .featureGridHeader {
   font-weight: 700;
   margin-top: 32px;
+  background-color: #F8F8F8;
+  padding: 2px 16px;
 }
 
 div.featureGridHeader {

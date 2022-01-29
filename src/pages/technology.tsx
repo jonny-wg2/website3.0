@@ -115,7 +115,7 @@ function Index() {
             <No />
             <div>DRA</div>
 
-            <div><a className={styles.link} href="/docs/auc">AuC</a></div>
+            <div><a className={styles.link}href="/docs/auc">AuC</a></div>
             <div>CHF</div>
             <No />
             <div>DEA</div>
