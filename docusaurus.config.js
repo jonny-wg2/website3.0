@@ -191,7 +191,7 @@ module.exports = {
         blog: {
           path: "blog",
           showReadingTime: true,
-          blogSidebarCount: 10,
+          blogSidebarCount: 100,
           editUrl: "https://github.com/working-group-two/wgtwo.com/edit/master/blog/",
           blogPostComponent: "../theme/BlogPostPage",
           blogListComponent: "../theme/BlogListPage",
