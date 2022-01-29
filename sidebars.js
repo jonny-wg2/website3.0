@@ -6,7 +6,7 @@ module.exports = {
       "working-with-wgtwo", 
       "demos", 
     ],
-    CaseStudies: [
+    "Case Studies": [
       "adjacent-cores-for-operators", 
       "mvnx",
       "small-operators",
@@ -14,5 +14,8 @@ module.exports = {
       "private-network-core",
       "greenfield-operators",
     ],
+    "Technology": [
+      "auc", 
+    ]
   },
 };
