@@ -141,7 +141,7 @@ module.exports = {
           items: [
             {
               label: "Security Whitepaper",
-              href: "/security-whitepaper",
+              href: "/docs/security-whitepaper",
               target: "_self",
             },
             {
