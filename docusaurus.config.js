@@ -155,7 +155,7 @@ module.exports = {
           title: "Connect",
           items: [
             {
-              label: "Press & Media",
+              label: "Media & Press",
               href: "/docs/media-and-press",
               target: "_self",
             },
