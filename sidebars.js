@@ -5,6 +5,7 @@ module.exports = {
       "concept", 
       "working-with-wgtwo", 
       "demos", 
+      "media-and-press",
     ],
     "Case Studies": [
       "adjacent-cores-for-operators", 

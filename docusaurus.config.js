@@ -89,7 +89,7 @@ module.exports = {
           title: "Product",
           items: [
             {
-              label: "API Documentation",
+              label: "API Docs",
               href: "https://docs.wgtwo.com",
             },
             {
@@ -97,13 +97,8 @@ module.exports = {
               href: "https://console.wgtwo.com",
             },
             {
-              label: "Support Center",
+              label: "Customer Support",
               href: "https://support.wgtwo.com",
-            },
-            {
-              label: "Privacy Policy",
-              href: "/privacy",
-              target: "_self",
             },
           ],
         },
@@ -150,8 +145,8 @@ module.exports = {
               target: "_self",
             },
             {
-              label: "Report a Vulnerability",
-              href: "/security-vulnerability-report",
+              label: "Privacy Policy",
+              href: "/privacy",
               target: "_self",
             },
           ],
@@ -159,6 +154,11 @@ module.exports = {
         {
           title: "Connect",
           items: [
+            {
+              label: "Press & Media",
+              href: "/docs/media-and-press",
+              target: "_self",
+            },
             {
               label: "Twitter",
               href: "https://twitter.com/workinggrouptwo",
