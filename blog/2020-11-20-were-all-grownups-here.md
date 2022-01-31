@@ -15,7 +15,7 @@ I have always struggled with company HR policies that make me not feel trusted. 
 
 It comes down to a choice - minimize risk by implementing all possible controls, or trust people and implement necessary controls only. We believe the latter drives ownership, motivation and a better product and company. That doesn’t mean it is easy though - the need to control is a fundamental human need, and we need daily reminders to always push in the opposite direction.
 
-When I was in discussions with Erlend (our CEO) about joining Working Group Two, the term “startup for grownups” was used and I remember thinking “huh, that makes sense”. Now, 2 years in, the simple fact that yes we are all grownups here and we all deserve to be treated as such has become an embedded part of our company culture.
+When I was in discussions with Erlend (our CEO) about joining **wgtwo**, the term “startup for grownups” was used and I remember thinking “huh, that makes sense”. Now, 2 years in, the simple fact that yes we are all grownups here and we all deserve to be treated as such has become an embedded part of our company culture.
 
 I wanted to give you some tangible examples of how we do things. For context, we are a startup tech company with a team of ~50 (87% engineers). We have offices in Oslo, Trondheim, Stockholm, a hub in Germany and remote team members in Japan, Spain, the U.S., Canada, London and Myanmar.
 
