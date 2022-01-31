@@ -17,6 +17,7 @@ module.exports = {
     ],
     "Technology": [
       "auc", 
+      "security-whitepaper",
     ]
   },
 };

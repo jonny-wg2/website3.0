@@ -79,12 +79,12 @@ function Index() {
             <div>WebRTC</div>
             <div>SMF</div>
 
-            <div>SMSF (roadmap)</div>
-            <div>VoNR (roadmap)</div>
-            <div>UPF</div>
-
             <div>Voicemail</div>
             <div>ePDG</div>
+            <div>UPF</div>
+
+            <div>SMSF (roadmap)</div>
+            <div>VoNR (roadmap)</div>
             <No />
 
             <div className={styles.featureGridHeader}>Connectivity</div>
@@ -105,7 +105,7 @@ function Index() {
 
             <div>UDM</div>
             <No />
-            <div>Firewaling</div>
+            <div><a className={styles.link}href="/docs/security-whitepaper#ss7-firewall">SS7 Firewall</a></div>
 
             <div>AUSF</div>
             <No />
