@@ -21,8 +21,8 @@ function Component() {
       </div>
       {/* <hr className={styles.hr} /> */}
 
-      <div className={styles.SecurityContainerBringIn}>
-        <div className={styles.SecurityDomainList}>
+      <div className={styles.SecurityDomainList}>
+        <div className={common.container}>
           <SecurityDomainList length={6} />
         </div>
       </div>
