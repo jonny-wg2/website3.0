@@ -199,7 +199,7 @@ function Index() {
               <div className={styles.questionQuestion}>Q: What do I gain when migrating my subscribers to wgtwo?</div>
               <div className={styles.answerAnswer}>
               <u>Operational simplicity</u>: Operators get the services in a managed SaaS model. This implies that we take care of operations, 24/7, upgrades, tickets, moving the operator to the next generation of technology  and more.
-              <br /><u>Architectural simplicity</u>: The core is built with inspiration from hyperscalers and modern technology companies. We terminate teleco complexity at the edge of the network, which drives simplicity and efficiency on the inside of the network.
+              <br /><u>Architectural simplicity</u>: The core is built with inspiration from hyperscalers and modern technology companies. We terminate telco complexity at the edge of the network, which drives simplicity and efficiency on the inside of the network.
               <br /><u>Financial simplicity</u>: A set-up fee and a SIM fee. Those two elements generally cover our main agreement. We aim for a simple and transparent price annex.
               <br /><u>Affordability</u>: The choice of operating model, architecture and technology drive radical cost savings that are passed on to our customers.
               <br /><u>Faster and lower risk delivery</u>: Through pre-integrating all the various functions and nodes, we reduce cost, complexity and time involved in integration and deployment.
