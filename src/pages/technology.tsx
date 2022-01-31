@@ -45,137 +45,110 @@ function Index() {
           <div className={styles.featureGrid}>
             <div className={styles.featureGridHeader}>Messaging</div>
             <div className={styles.featureGridHeader}>Voice</div>
-            <div className={styles.featureGridHeader}>Team</div>
             <div className={styles.featureGridHeader}>Data</div>
 
             <div>SMSC</div>
             <div>G-MSC</div>
-            <div>Unlimited</div>
             <div>GGSN/PGW</div>
 
             <div>SMS router</div>
             <div>SBC</div>
-            <div>Unlimited</div>
             <div>S-GW</div>
 
             <div>SMS GW</div>
             <div>MTAS/SCC-AS</div>
-            <No />
             <div>MME</div>
 
             <div>SMPP GW</div>
             <div>MRF</div>
-            <No />
             <div>DNS</div>
 
             <div>IP-SM-GW</div>
             <div>XCAP</div>
-            <No />
             <div>ePDG</div>
             
             <div>MMS proxy</div>
             <div>LI-GW</div>
-            <No />
             <div>CGNAT</div>
 
             <div>MMSC</div>
             <div>SCP/IM-SSF</div>
-            <No />
             <div>AMF</div>
 
             <div>MMSC-GW</div>
             <div>WebRTC</div>
-            <No />
             <div>SMF</div>
 
             <div>SMSF (roadmap)</div>
             <div>VoNR (roadmap)</div>
-            <No />
             <div>UPF</div>
 
             <div>Voicemail</div>
             <div>ePDG</div>
             <No />
-            <No />
 
             <div className={styles.featureGridHeader}>Connectivity</div>
             <div className={styles.featureGridHeader}>Charging</div>
-            <div className={styles.featureGridHeader}>Team</div>
             <div className={styles.featureGridHeader}>Signaling</div>
 
             <div>HLR/HSS</div>
             <div>Charging gateway</div>
-            <Yes />
             <div>STP</div>
 
             <div>UDR</div>
             <div>Real-time billing gateway</div>
-            <No />
             <div>DRA</div>
 
             <div><a className={styles.link}href="/docs/auc">AuC</a></div>
             <div>CHF</div>
-            <No />
             <div>DEA</div>
 
             <div>UDM</div>
-            <No />
             <No />
             <div>Firewaling</div>
 
             <div>AUSF</div>
             <No />
             <No />
-            <No />
 
             <div>AAA</div>
-            <No />
             <No />
             <No />
 
             <div>AAA proxy</div>
             <No />
             <No />
-            <No />
 
             <div>MNP/ENUM</div>
-            <No />
             <No />
             <No />
 
             <div>XCAP</div>
             <No />
             <No />
-            <No />
 
             <div>Entitlement server</div>
-            <No />
             <No />
             <No />
 
             <div className={styles.featureGridHeader}>Policy</div>
             <div className={styles.featureGridHeader}>Support</div>
-            <div className={styles.featureGridHeader}>Team</div>
             <div className={styles.featureGridHeader}>API´s</div>
 
             <div>Radius</div>
             <div>Orchestration and automation</div>
-            <Yes />
             <div>APIs for developers</div>
 
             <div>PCEF</div>
             <div>Monitoring and alerting</div>
-            <Yes />
             <div>Develop platform for 3rd party developers</div>
 
             <div>PCRF</div>
             <div>Customer service tools and portals</div>
-            <No />
             <div>Storefront for operators</div>
 
             <div>PCF</div>
             <div>24/7 Level 3 On-call</div>
-            <No />
             <No />
 
           </div>

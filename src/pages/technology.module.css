@@ -98,7 +98,7 @@ div.featureGridHeader {
 
 /** Disable self service Tier for now */
 
-.priceTiers {
+/* .priceTiers {
   grid-template-columns: 1fr 1fr;
 }
 .priceTier:nth-of-type(2) {
@@ -109,7 +109,7 @@ div.featureGridHeader {
 }
 .featureGrid {
   grid-template-columns: 1fr 1fr 1fr;
-}
+} */
 
 /* Responsiveness */
 
