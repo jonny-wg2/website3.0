@@ -16,7 +16,7 @@ function Component() {
             Secure data.
           </h2>
           <div className={common.subtitle}>
-            Your trusted telco core platform.
+            Your trusted telco platform.
           </div>
         </div>
       </div>
