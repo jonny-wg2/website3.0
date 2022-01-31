@@ -11,6 +11,8 @@ author_image_url: https://media-exp1.licdn.com/dms/image/C4D03AQFD4dPSvm-pIg/pro
 
 One of the goals of Working Group Two is to enable operators and third parties to build products and services for the “core network” of the telecom stack. In short, this means providing API access to a subscription’s telecom functionality (messaging, calling, etc). In this article we will show how we built VoiceBox, a Voicemail forwarding application.
 
+<!--truncate-->
+
 ## The product
 
 One of the most common complaints people have with their Voicemail service in Europe is that you have to call in to your Voicemail to listen to your messages. In order to play the message, you have to navigate through a slow voice menu using your dialpad. We believed this would be easy to improve.

@@ -9,7 +9,9 @@ author_url: https://www.linkedin.com/in/mariuswaldum/
 author_image_url: https://media-exp1.licdn.com/dms/image/C4D03AQEBVz5L0pV2Rg/profile-displayphoto-shrink_400_400/0/1517238318977?e=1648684800&v=beta&t=rMlngb30kEIKueqRIEGWxB6SevOLZcfEn7lsWYCLngQ
 ---
 
-**This blog post will cover technology driven products that rely on telecom infrastructure, and not price plans, bundles, or marketing gimmicks. Anyone who has created a product and brought it to market more than once will tell you that it is hard.**
+This blog post will cover technology driven products that rely on telecom infrastructure, and not price plans, bundles, or marketing gimmicks. Anyone who has created a product and brought it to market more than once will tell you that it is hard.
+
+<!--truncate-->
 
 The prerequisites for a great product is that:
 1. It is valuable to the user and customer 

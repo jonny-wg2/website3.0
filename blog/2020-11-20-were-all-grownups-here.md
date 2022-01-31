@@ -2,7 +2,7 @@
 slug: were-all-grownups-here
 title: We're all grownups here
 date: 2020-11-20
-tags: [trust, culture, startup, flexibility]
+tags: [trust, culture, startup]
 author: Victoria Hicks Mørkved
 author_title: Head of People @ wgtwo
 author_url: https://www.linkedin.com/in/victoriamorkved/
@@ -10,6 +10,8 @@ author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQHnYK6C3HVblQ/pro
 ---
 
 I have always struggled with company HR policies that make me not feel trusted. Why don’t HR and/or management trust who they hire? Why create HR processes for the very few people who don’t behave? Shouldn’t processes be designed for the vast majority of people who are to be trusted? I just don’t get it. If you are given freedom it comes with a lot of responsibility, isn’t that rather implicit?
+
+<!--truncate-->
 
 It comes down to a choice - minimize risk by implementing all possible controls, or trust people and implement necessary controls only. We believe the latter drives ownership, motivation and a better product and company. That doesn’t mean it is easy though - the need to control is a fundamental human need, and we need daily reminders to always push in the opposite direction.
 

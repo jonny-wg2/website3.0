@@ -11,6 +11,8 @@ author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQG43m4lVjJm8g/pro
 
 At Working Group Two, we try to use CI/CD pipelines to automate all of our repetitive tasks when it comes to code and infrastructure deployment and testing, such as:
 
+<!--truncate-->
+
 * running unit tests on each pull request
 * building and running integration tests with bazel on every merge to the monorepo
 * building container images and upload them to the registry

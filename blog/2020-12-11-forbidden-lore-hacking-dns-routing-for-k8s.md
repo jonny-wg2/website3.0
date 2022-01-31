@@ -11,6 +11,8 @@ author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQG43m4lVjJm8g/pro
 
 At WG2 we’re coming close to having everything running in Kubernetes, which means that almost everything we deploy needs to be pulled from a registry. We have run our own local registry for some time now, to host both locally-built images and cached images from Docker Hub.
 
+<!--truncate-->
+
 We recently decided to improve the registry solution by implementing [Harbor](https://goharbor.io/) to scan images for vulnerabilities on upload, and replicating the registry into each of our multiple environments and regions. This would both eliminate Harbor as a single point of failure, and allow each cluster to pull images locally to minimise data transfer costs through the NAT gateway.
 
 The overall workflow would look something like:

@@ -2,7 +2,7 @@
 slug: extending-k8s/
 title: "Extending Kubernetes for our needs"
 date: 2020-02-21
-tags: [infrastructure, kubernetes, operator, operator-framework, networking, AWS]
+tags: [infrastructure, kubernetes, networking, AWS]
 author: Holger Ihrig
 author_title: Software Engineer @ wgtwo
 author_url: https://www.linkedin.com/in/hihrig/
@@ -11,6 +11,8 @@ author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGc3sG-ltGzlA/pro
 
 We are using Kubernetes as our cluster scheduler and this serves us well. However we have a 
 few cases where we need to do some additional work.
+
+<!--truncate-->
 
 One case for example is that we have to use static IPs for some of our services to connect to
 Telecom companies as they expect a single IP address to bind to. This address needs to be fixed and

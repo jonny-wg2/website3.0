@@ -20,6 +20,8 @@ tags: [press release, mki, private networks]
 
 CEO Erlend Prestgard of Working Group Two As, Oslo, Norway and President Kengo Asano of Mitsui Knowledge Industry Co., Ltd. Minato-ku, Japan, agreed on an MoU on providing WG2’s fully-managed Mobile Core NW SaaS product to accelerate the Private Networks business in the Japanese market. 
 
+<!--truncate-->
+
 In the Japanese market, there is a clear interest in Private NWs due to the regulatory setup of Private LTE and Local 5G. However, there are complex issues to overcome and Private NWs require professional knowledge to acquire a radio license, to design and operate the Core Network, and to optimize the Radio Network, all with reasonable cost. The MKI-WG2 agreement solves these problems:
 
 - One-stop solution from client’s radio license acquisition to operational support

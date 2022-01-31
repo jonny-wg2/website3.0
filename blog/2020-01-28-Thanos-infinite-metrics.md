@@ -8,9 +8,12 @@ author_title: Software Engineer @ wgtwo
 author_url: https://www.linkedin.com/in/hihrig/
 author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGc3sG-ltGzlA/profile-displayphoto-shrink_400_400/0/1516250699138?e=1648684800&v=beta&t=qpxr39O2hNY54vsUcCbt1wH8fc2lMf07zW1etQD_gxY
 ---
+
 In the current DevOps world, our industry relies on the ability to observe and monitorize our infrastructure and 
 services. Working Group Two is no exception here and as we are operating in the TelCo space
 we wanted to know more about the usage patterns of our platform over days, months and even years.
+
+<!--truncate-->
 
 Internally we have been running Prometheus for a long time with a fairly limited retention of 30 days. This did not
 allow us to look far enough back in time to make the observations we wanted to.

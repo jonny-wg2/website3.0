@@ -13,6 +13,8 @@ author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQH5jRmUxivpng/pro
 the services has really have gained traction later years is VoLTE (Voice
 over LTE) and VoWifi (Voice over Wifi) that we will go more in dept regarding security.
 
+<!--truncate-->
+
 VoWifi is beneficial in terms being able to use any Wifi connection offering public
 internet access thus extending and improving the coverage and connectivity.
 Think of it as building our own cellular network, but

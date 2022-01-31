@@ -19,6 +19,8 @@ after all, it is telco.
 
 _Aaand down the rabbit hole we go..._
 
+<!--truncate-->
+
 # Where to even start
 
 In the *SS7* (telco/telecom/telecommunications) network there are many

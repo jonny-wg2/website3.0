@@ -14,6 +14,7 @@ description language for defining data structures that can be
 serialized and deserialized in a cross-platform way." -
 [Wikipedia](https://en.wikipedia.org/wiki/ASN.1)
 
+<!--truncate-->
 # Introduction
 
 Today you'll read about a specific language used to describe many of

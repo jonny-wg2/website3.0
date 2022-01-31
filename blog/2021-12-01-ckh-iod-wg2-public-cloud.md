@@ -19,6 +19,8 @@ tags: [press release, telco]
 - As an industry-first, CKH IOD migrates its core network to the cloud – delivered as a fully managed software-as-a-service by Working Group Two and deployed on AWS
 - A cloud-based core network brings radical simplification, cost efficiency and a platform to leverage a developer community – to drive innovation and capitalize on disruptive technologies
 
+<!--truncate-->
+
 **Oslo/London, 1 December, 2021** – CKH Innovations Opportunities Development (CKH IOD) has entered into a contract with Working Group Two to move its core network to the public cloud. CKH IOD, a telecoms unit and international development hub of CK Hutchison, via a fully managed SaaS by Working Group Two, will deploy its mobile core network on Amazon Web Services (AWS). The agreement means that CKH IOD, and its MVNO, IoT and Private Network customers, can achieve radical simplification, speed up innovation, explore new revenue streams and get to market faster.
 
 CKH IOD will leverage Working Group Two’s platform to deliver services across the CK Hutchison telecoms footprint in Europe, Asia and its wider international partners.

@@ -14,7 +14,7 @@ that provide a timer facility. Most of them are in memory and will lose schedule
 In this blog we discuss durable Kafka timers that do not depend on in memory state. By design
 we shall assume 1 second resolution of these timers.
 
----
+<!--truncate-->
 
 Before taking on timers let's cover some Kafka basics.
 

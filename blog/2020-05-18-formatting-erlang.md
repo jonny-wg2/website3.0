@@ -14,6 +14,8 @@ I investigated which options exist for us at Working Group Two. There
 are two main alternatives, but sadly both have problems.  I've also
 briefly looked at an Erlang linter.
 
+<!--truncate-->
+
 # Background
 
 In Working Group Two we use a bunch of different programming
