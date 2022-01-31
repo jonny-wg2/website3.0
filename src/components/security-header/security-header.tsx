@@ -12,11 +12,11 @@ function Component() {
           <section><div className={common.pillTitle}>wgtwo Security</div></section>
 
           <h2 className={common.title}>
-            Secure platform.<br />
+            Secure network.<br />
             Secure data.
           </h2>
           <div className={common.subtitle}>
-            Your trusted telco core network.
+            Your trusted telco core platform.
           </div>
         </div>
       </div>
