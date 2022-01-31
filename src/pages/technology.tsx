@@ -37,7 +37,7 @@ function Index() {
         
         <div className={`${common.section} ${common.sectionDark} ${styles.technologyMetricsSection}`}>
           <div className={common.container}>
-            <h1>In 2021, we helped our customers deliver</h1>
+            <h1>In {new Date().getFullYear()-1}, we helped our customers deliver</h1>
             <TechnologyMetricList />
           </div>
         </div>

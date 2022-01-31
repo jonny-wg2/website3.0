@@ -10,14 +10,20 @@ For all media enquiries, please contact Tor Odland, Chief Marketing Officer at t
 
 Contact our sales engineering team for more information about our technology at sales@wgtwo.com.
 
-#### Short description of wgtwo
+### Short description of wgtwo
 
 **wgtwo** helps businesses offer SIM subscriptions
-#### Detailed description of wgtwo
+### Detailed description of wgtwo
 
 
-#### Logos
+### Logos
 
+| Logo  | Download Link  |
+|---|---|
+| wgtwo-landscape-black-png  |![wgtwo-landscape-black-png](images/wgtwo-logos/wgtwo-landscape-black.png "wgtwo-landscape-black-png")  |
+| sdf  |sdf   |
+|   |   |
+|   |   |
 
 [![wgtwo-landscape-black-png](images/wgtwo-logos/wgtwo-landscape-black.png "wgtwo-landscape-black-png")](images/wgtwo-logos/wgtwo-landscape-black.png)
 [![wgtwo-landscape-black-svg](images/wgtwo-logos/wgtwo-landscape-black.svg "wgtwo-landscape-black-svg")](images/wgtwo-logos/wgtwo-landscape-black.svg)
