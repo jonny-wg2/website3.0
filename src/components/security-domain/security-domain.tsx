@@ -20,8 +20,11 @@ function Component() {
         </div>
       </div>
       {/* <hr className={styles.hr} /> */}
-      <div className={styles.SecurityDomainList}>
-        <SecurityDomainList length={6} />
+
+      <div className={styles.SecurityContainerBringIn}>
+        <div className={styles.SecurityDomainList}>
+          <SecurityDomainList length={6} />
+        </div>
       </div>
       <div className={common.container}>
         <a href="/docs/security-whitepaper" className={styles.securityDomainButton}>
