@@ -4,6 +4,7 @@ import styles from "./technology.module.css";
 import common from "../css/common.module.css";
 import { Check } from "lucide-react";
 import SecurityHeader from "../components/security-header/security-header";
+import SecurityDomains from "../components/security-domain/security-domain";
 import contact from "./contact.module.css";
 import message from "../util/message";
 
@@ -20,7 +21,8 @@ function Index() {
       <div className={common.page}>
 
         <SecurityHeader />
-        
+        {/* <hr className={styles.hr} /> */}
+        <SecurityDomains />
 
         <div className={`${common.section} ${common.sectionDark}`}>
           <div className={`${common.container} ${common.splitContainer}`}>

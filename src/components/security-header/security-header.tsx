@@ -64,9 +64,12 @@ function Component() {
               <b>wgtwo</b> has been aligning security to ISO 27001 standards and now began the process of obtaining the certification in 2022. 
             </div>
           </div>
-         
         </div>
       </div>
+      {/* <br />
+      <br />
+      <br />
+      <hr className={styles.hr} /> */}
     </div>
   );
 }
