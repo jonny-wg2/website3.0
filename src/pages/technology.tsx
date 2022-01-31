@@ -3,12 +3,10 @@ import Layout from "@theme/Layout";
 import styles from "./technology.module.css";
 import common from "../css/common.module.css";
 import TechnologyMetricList from "../components/technologymetrics/technologymetrics-list";
-import { Check, CheckCircle2 } from "lucide-react";
-import CTA from "../components/cta/cta";
+import { Check } from "lucide-react";
 import Multig from "../components/multig/multig";
 import Ourservice from "../components/ourservice/ourservice";
 import contact from "./contact.module.css";
-import Image from "@theme/IdealImage";
 
 let form = {
   name: React.createRef<HTMLInputElement>(),

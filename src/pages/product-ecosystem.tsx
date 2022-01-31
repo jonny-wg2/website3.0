@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./product-ecosystem.module.css";
 import common from "../css/common.module.css";
-import { Check, CheckCircle2 } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import CTA from "../components/cta/cta";
 import Image from "@theme/IdealImage";
 

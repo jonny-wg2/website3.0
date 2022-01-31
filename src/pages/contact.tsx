@@ -66,7 +66,7 @@ function Contact() {
 
 function sendMessage() {
   message(
-    `New Contact Form Message!\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nCompany: ${form.company.current.value}\nMessage: ${form.message.current.value}`
+    `Message from wgtwo.com/contact\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nCompany: ${form.company.current.value}\nMessage: ${form.message.current.value}`
   );
 
   form.name.current.disabled = true;

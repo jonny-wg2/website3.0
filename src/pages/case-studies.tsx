@@ -9,7 +9,7 @@ import message from "../util/message";
 let form = {
   name: React.createRef<HTMLInputElement>(),
   email: React.createRef<HTMLInputElement>(),
-  repo: React.createRef<HTMLInputElement>(),
+  message: React.createRef<HTMLInputElement>(),
   button: React.createRef<HTMLButtonElement>(),
 };
 
@@ -42,7 +42,7 @@ function CaseStudies() {
             <div className={contact.form}>
               <input ref={form.name} placeholder="Name" />
               <input ref={form.email} placeholder="Email address" />
-              <input ref={form.repo} placeholder="Message" className={contact.span2} />
+              <input ref={form.message} placeholder="Message" className={contact.span2} />
               <button
                 ref={form.button}
                 onClick={() => sendMessage()}
@@ -59,14 +59,14 @@ function CaseStudies() {
 
 function sendMessage() {
   message(
-    `New Open Source Repo!\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nRepo URL: ${form.repo.current.value}`
+    `Message from wgtwo.com/case-studies\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
   );
 
   form.name.current.disabled = true;
   form.email.current.disabled = true;
-  form.repo.current.disabled = true;
+  form.message.current.disabled = true;
 
-  form.button.current.innerText = "New Case Study Submitted!";
+  form.button.current.innerText = "Your message was sent!";
   form.button.current.disabled = true;
 }
 

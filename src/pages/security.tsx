@@ -2,12 +2,10 @@ import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./technology.module.css";
 import common from "../css/common.module.css";
-import TechnologyMetricList from "../components/technologymetrics/technologymetrics-list";
-import { Check, CheckCircle2 } from "lucide-react";
-import CTA from "../components/cta/cta";
+import { Check } from "lucide-react";
 import SecurityHeader from "../components/security-header/security-header";
 import contact from "./contact.module.css";
-import Image from "@theme/IdealImage";
+import message from "../util/message";
 
 let form = {
   name: React.createRef<HTMLInputElement>(),
@@ -62,15 +60,14 @@ function Yes() {
 
 function sendMessage() {
   message(
-    `New question from Technology page!\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nRepo URL: ${form.message.current.value}`
+    `Message from wgtwo.com/security\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
   );
 
   form.name.current.disabled = true;
   form.email.current.disabled = true;
   form.message.current.disabled = true;
 
-  form.button.current.innerText = "New Case Study Submitted!";
+  form.button.current.innerText = "Your message was sent!";
   form.button.current.disabled = true;
 }
-
 export default Index;

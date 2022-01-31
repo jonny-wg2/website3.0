@@ -22,18 +22,14 @@ function Component() {
       </div>
       <div className={common.container}>
         <div className={styles.features}>
-          <div className={styles.feature}>
+        <div className={styles.feature}>
             <div className={styles.featureIcon}>
-              <Search />
-            </div>
-            <div className={styles.featureTitle}>Data Privacy</div>
-            <div className={styles.featureDescription}>
-              <b>wgtwo</b> is committed to privacy and provides a high standard of privacy protection for our customer's subscribers. 
-            </div>
-          </div>
-          <div className={styles.feature}>
-            <div className={styles.featureIcon}>
-              <ShieldCheck />
+              {/* <ShieldCheck /> */}
+              <Image
+              alt="GDPR Logo"
+              className={styles.logo}
+              img={require("../../../static/img/gdpr.png")}
+              />
             </div>
             <div className={styles.featureTitle}>GDPR</div>
             <div className={styles.featureDescription}>
@@ -42,11 +38,30 @@ function Component() {
           </div>
           <div className={styles.feature}>
             <div className={styles.featureIcon}>
-              <Lock />
+              {/* <Search /> */}
+              <Image
+              alt="CSA Norway Logo"
+              className={styles.logo}
+              img={require("../../../static/img/aws-well-architected.png")}
+              />
+            </div>
+            <div className={styles.featureTitle}>AWS Well Architected</div>
+            <div className={styles.featureDescription}>
+              <b>wgtwo</b> is committed to adopting AWS key concepts, design principles, and architectural best practices for designing and running workloads in the cloud.
+            </div>
+          </div>
+          <div className={styles.feature}>
+            <div className={styles.featureIcon}>
+              {/* <Lock /> */}
+              <Image
+              alt="ISO Logo"
+              className={styles.logo}
+              img={require("../../../static/img/iso.png")}
+              />
             </div>
             <div className={styles.featureTitle}>ISO 27001</div>
             <div className={styles.featureDescription}>
-              <b>wgtwo</b> has been aligning security to ISO 27001 standards and now began the process of obtaining the certification. 
+              <b>wgtwo</b> has been aligning security to ISO 27001 standards and now began the process of obtaining the certification in 2022. 
             </div>
           </div>
          
