@@ -10,7 +10,7 @@ author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGKBPb8-fRQrw/pro
 ---
 
 There are many different Erlang formatters, and as a hack day project
-I investigated which options exist for us at Working Group Two. There
+I investigated which options exist for us at **wgtwo**. There
 are two main alternatives, but sadly both have problems.  I've also
 briefly looked at an Erlang linter.
 
@@ -18,7 +18,7 @@ briefly looked at an Erlang linter.
 
 # Background
 
-In Working Group Two we use a bunch of different programming
+In **wgtwo** we use a bunch of different programming
 languages, and we all have different experiences and are used to
 different languages and environments. We are pretty autonomous and we
 are expected to jump in and out in different services to fix bugs and
@@ -30,7 +30,7 @@ our code is consistent no matter who is the author, or which IDE is
 used, or in which part of the system the code resides.
 
 About half a year ago there was a discussion about code style within
-Working Group Two that resulted in formatting tools being applied for
+**wgtwo** that resulted in formatting tools being applied for
 Kotlin, Bazel, Go and Java. It also resulted in an internal wiki page
 containing guidelines about code style.
 

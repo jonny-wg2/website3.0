@@ -10,7 +10,7 @@ author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGc3sG-ltGzlA/pro
 ---
 
 In the current DevOps world, our industry relies on the ability to observe and monitorize our infrastructure and 
-services. Working Group Two is no exception here and as we are operating in the TelCo space
+services. **wgtwo** is no exception here and as we are operating in the TelCo space
 we wanted to know more about the usage patterns of our platform over days, months and even years.
 
 <!--truncate-->

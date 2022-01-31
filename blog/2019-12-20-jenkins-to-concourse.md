@@ -9,7 +9,7 @@ author_url: https://www.linkedin.com/in/annaken
 author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQG43m4lVjJm8g/profile-displayphoto-shrink_400_400/0/1517558635100?e=1648684800&v=beta&t=BXA0nV3ZTaID9m1UD7GMS87NhYZRsYPcrPiIg30SYRw
 ---
 
-At Working Group Two, we try to use CI/CD pipelines to automate all of our repetitive tasks when it comes to code and infrastructure deployment and testing, such as:
+At **wgtwo**, we try to use CI/CD pipelines to automate all of our repetitive tasks when it comes to code and infrastructure deployment and testing, such as:
 
 <!--truncate-->
 

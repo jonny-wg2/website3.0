@@ -22,7 +22,7 @@ the messages in the telecom specifications. It will be a deep-dive
 into technical parts, so I imagine you could just use the blog post
 when you want to look up different parts without fully reading it.
 
-In Working Group Two we use this language for some specific telco
+In **wgtwo** we use this language for some specific telco
 messages (such as SIGTRAN layers TCAP/MAP/CAP, as well as S1AP, NGAP
 and probably some more). They are defined directly in some of the
 telecom specifications, and because of that it is possible to use them
