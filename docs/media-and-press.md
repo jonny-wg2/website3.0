@@ -18,8 +18,6 @@ For all media enquiries, please contact Tor Odland, Chief Marketing Officer at t
 
 **wgtwo** is building a cloud native mobile core network that offers continuous development, scalability and flexibility. Bringing innovation back to the core.
 
-somet here ok
-
 ### Detailed description of **wgtwo**
 
 **wgtwo** is building a future proof technology that reduces cost and complexity while radically enhancing innovation potential in the telecom industry. To make this a reality we create programmable mobile core networks, built as a platform, API’ed and delivered as-a-service. Finally, we create the marketplaces where operators, developers and end-users can meet and interact. Our core has multi-G support and offers the full set of capabilities related to authentication, provisioning, voice, messaging and data services.
