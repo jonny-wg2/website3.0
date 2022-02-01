@@ -21,3 +21,7 @@ Most popular time of day to make a voice call = 16:10
 
 https://prometheus.dub.prod.wgtwo.com/graph?g0.range_input=12h&g0.expr=sum(increase(drama_invalid_forwarded_msgs%5B24h%5D))&g0.tab=1
 SS7 Firewall Blocked Traffic = 2714 (24 hours) = 977040 blocked SS7 Traffic
+
+Connectivity
+https://grafana.dub.prod.wgtwo.com/d/mtXY4FUZk/hussar?editPanel=4&viewPanel=4&orgId=1&from=now-7d&to=now
+201 at 8pm per second = 12060 per minute = 723600 per hour = 6,338,736,00 billion events
