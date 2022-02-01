@@ -13,9 +13,7 @@ function Component() {
           Security is at the forefront of how wgtwo builds its mobile core network.
           </div>
           <div className={styles.subtitle}>
-            <b>wgtwo</b> provides the platform with flexible APIs,
-            allowing all customer segments to migrate to our core network. To learn more about how we are changing the game
-            in the telecommunication space, check out the case studies to see how we can help your company. Our goal is to drive innovation and growth for your business.
+          Every person, team, customer, and organization deserves and expects their data to be secure and confidential. <b>wgtwo</b> continues to work hard to ensure the safeguarding of this data by focusing on implementing security controls across various domains. 
           </div>
         </div>
       </div>
