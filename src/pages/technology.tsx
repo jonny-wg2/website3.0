@@ -40,7 +40,7 @@ function Index() {
           </div>
         </div>
         <Multig />
-        
+
         <div className={common.container}>
           <div className={styles.featureGrid}>
             <div className={styles.featureGridHeader}>Messaging</div>

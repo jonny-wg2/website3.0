@@ -10,7 +10,7 @@ const technologyMetrics = [
   { name: "18.9 petabyte", description: "data download",},
   { name: "6.3 billion", description: "connectivity events",},
   { name: "977 040", description: "events blocked - SS7 Firewall",},
-  { name: "16:10", description: "the most popular time of the day for voice calls",},
+  { name: "16:10", description: "voice calls during the most popular time of the day",},
   { name: "302 583", description: "total subscribers",},
 
 ];
