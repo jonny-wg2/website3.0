@@ -3,15 +3,15 @@ import common from "../../css/common.module.css";
 import styles from "./technologymetrics.module.css";
 
 const technologyMetrics = [
-  { name: "2,000,000", description: "SMSs",},
-  { name: "20,000,000", description: "Voice calls",},
-  { name: "500tb", description: "Data transfer",},
-  { name: "2,000,000", description: "Authentication Requests",},
-  { name: "20,000,000", description: "API calls",},
-  { name: "500tb", description: "Data transfer",},
-  { name: "2,000,000", description: "SMSs",},
-  { name: "20,000,000", description: "Voice calls",},
-  { name: "500tb", description: "Voicemails",},
+  { name: "156.1 million", description: "SMSs",},
+  { name: "321.6 million", description: "Voice calls",},
+  { name: "8.3 million", description: "MMS",},
+  { name: "1.8 petabyte", description: "Data Upload",},
+  { name: "18.9 petabyte", description: "Data Download",},
+  { name: "6.3 billion", description: "Connectivity events",},
+  { name: "977 040", description: "SS7 Firewall Blocked Traffic",},
+  { name: "16:10", description: "Deliver a voice call during the most popular time of the day",},
+  { name: "302 583", description: "Total subscribers",},
 
 ];
 
