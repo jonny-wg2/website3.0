@@ -106,7 +106,7 @@ div.technologymetricsContainer.technologymetricsContainer {
 
 .technologymetricsTitle {
   font-size: 44px;
-  line-height: 30px;
+  line-height: 100%;
   font-weight: 700;
   margin-bottom: 24px;
   color: #B3E5FC;
