@@ -2,9 +2,9 @@
 
 ## Blog
 
-https://github.com/working-group-two/wgtwo.com/tree/main/blog
-
-Upload images at https://github.com/working-group-two/wgtwo.com/tree/main/static/img/blog
+- Upload images at https://github.com/working-group-two/wgtwo.com/tree/main/static/img/blog
+- Add your blog post here https://github.com/working-group-two/wgtwo.com/tree/main/blog
+  - Keep the structure `yyyy-mm-dd-name-of-blog.md`
 ## Docs
 
 https://github.com/working-group-two/wgtwo.com/tree/main/docs/
