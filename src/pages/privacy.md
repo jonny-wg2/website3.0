@@ -26,7 +26,6 @@ We may log information using "cookies." Cookies are small data files stored on y
 
 The following cookies are enabled so we can improve the site. All data is anonymize. 
 - [Google Analytics](https://analytics.google.com/analytics/web/)
-- [Hotjar](https://www.hotjar.com/)
 ## Use of Personal Information
 
 We use your personal information as follows:
