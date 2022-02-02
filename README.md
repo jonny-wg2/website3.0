@@ -8,7 +8,6 @@
   - Ensure you add a `<!--truncate-->` after the first paragraph of your blogpost to truncate the text for when viewing at wgtwo.com/blog. If not, the entire blog post will be displayed
 
 Example simple blogpost
-- slug = the url wgtwo.com/blog/your-slug-here
 
 <details>
 <summary>2022-02-02-how-to-write-a-blog-post.md</summary>
