@@ -135,7 +135,6 @@ $ tree -d -L 4
 │   │   └── technologymetrics
 │   ├── css
 │   ├── pages
-│   │   └── news
 │   └── util
 ├── static
 │   ├── img
