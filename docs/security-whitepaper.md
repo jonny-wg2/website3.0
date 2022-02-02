@@ -49,7 +49,7 @@ All APIs undergo the same security controls listed in the previous section, Soft
 - Static Analysis Security Testing (SAST)
 - Penetration testing
 
-### Authentication to **wgtwo** Applications
+### Authentication
 **wgtwo** operates several application products offered as a service for end-subscribers and operators. All applications undergo security controls listed in this document, including sections specific to Software Development.
 
 Authentication to these applications is managed through oAuth, SAML, or other secure authentication methods approved by **wgtwo**. For customer-facing applications, Auth0 provides a secure configuration and interface for managing authentication and authorization. This authentication mechanism provides access controls, audit logs, and custom integrations to allow authentication mechanisms to meet your business requirements.

@@ -7,6 +7,7 @@ module.exports = {
   favicon: "img/favicons/favicon.ico",
   organizationName: "working-group-two",
   projectName: "wgtwo.com",
+  trailingSlash: "true",
   themeConfig: {
     metadata: [
       {
