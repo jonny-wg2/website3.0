@@ -2,8 +2,8 @@
 
 ## Blog
 
-- Upload images at https://github.com/working-group-two/wgtwo.com/tree/main/static/img/blog
-- Add your blog post here https://github.com/working-group-two/wgtwo.com/tree/main/blog
+- Upload images at [static/img/blog/](https://github.com/working-group-two/wgtwo.com/tree/main/static/img/blog)
+- Add your blog post here [blog/](https://github.com/working-group-two/wgtwo.com/tree/main/blog)
   - Keep the structure `yyyy-mm-dd-name-of-blog.md`
   - Ensure you add a `<!--truncate-->` after the first paragraph of your blogpost to truncate the text for when viewing at wgtwo.com/blog. If not, the entire blog post will be displayed
 
@@ -36,8 +36,8 @@ Now my real blog post begins
 
 ## Docs
 
-- Upload your-doc.md at https://github.com/working-group-two/wgtwo.com/tree/main/docs/
-- Upload images at https://github.com/working-group-two/wgtwo.com/tree/main/docs/images/
+- Upload your-doc.md at [docs/](https://github.com/working-group-two/wgtwo.com/tree/main/docs/)
+- Upload images at [docs/images/](https://github.com/working-group-two/wgtwo.com/tree/main/docs/images/)
 
 To have the new doc show up on the sidebar, update `sidebars.js` at https://github.com/working-group-two/wgtwo.com/tree/main/sidebars.js with the `id` that is specified in the `docs/your-doc.md`. The following is an example:
 
