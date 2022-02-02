@@ -1,4 +1,4 @@
-# Working Group Two (wgtwo.com) website
+# Working Group Two (wgtwo.com) 
 
 ## Blog
 
@@ -39,20 +39,20 @@ Now my real blog post begins
 - Upload your-doc.md at [docs/](https://github.com/working-group-two/wgtwo.com/tree/main/docs/)
 - Upload images at [docs/images/](https://github.com/working-group-two/wgtwo.com/tree/main/docs/images/)
 
-To have the new doc show up on the sidebar, update `sidebars.js` at https://github.com/working-group-two/wgtwo.com/tree/main/sidebars.js with the `id` that is specified in the `docs/your-doc.md`. The following is an example:
+To have the new doc show up on the sidebar, update [sidebars.js](https://github.com/working-group-two/wgtwo.com/tree/main/sidebars.js) at  with the `id` that is specified in the `docs/your-doc.md`. The following is an example:
 
-`docs/media-and-press.md`
+[docs/media-and-press.md](https://github.com/working-group-two/wgtwo.com/tree/main/docs/media-and-press.md)
 ```yaml
 ---
 id: media-and-press
 title: Media and Press
 sidebar_label: Media and Press
 ---
-...
+your normal markdown text here
 ...
 ```
 
-`sidebar.js`
+[sidebars.js](https://github.com/working-group-two/wgtwo.com/tree/main/sidebars.js)
 ```js
 module.exports = {
   someSidebar: {
