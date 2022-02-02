@@ -2,16 +2,57 @@
 title: Security Whitepaper
 ---
 
-> Working Group Two’s (**wgtwo**) mission is to provide a more useful and relevant mobile subscription through a programmable network core that operators can leverage to create innovative solutions.
+Security is at the forefront of how **wgtwo** builds its mobile core network. The goal of this document is to communicate **wgtwo**’s approach to security across various domains including application, infrastructure, telecommunication, and operational security.
 
-Security is at the forefront of how **wgtwo** builds its mobile core network. The goal of this document is to communicate **wgtwo**’s approach to security across the Software Development Lifecycle (SDLC).
+## Data Security and Encryption
+Protecting customers’ data from unauthorized access is **wgtwo**’s top priority. Several countermeasures exist to identify, contain, and prevent data leakage. Leveraging security as part of the design, encryption, access controls, and integrity controls, **wgtwo** can protect customer data.
 
-## Software Development
+### Encryption
+**wgtwo** leverages encryption at every level of our mobile core network to ensure the confidentiality and integrity of customer data. To ensure **wgtwo** always protects  customer data and remains compliant with industry standards, we have implemented software-defined policies that automatically monitor and prevent misconfigurations. For example, it is impossible to deploy a new database resource without encryption enabled as this will be prevented at run-time by these policies.
 
-Working Group Two has several security controls across the software development lifecycle to ensure that security is addressed as early as possible. As part of the design phase, security threat modeling is performed on critical applications and features that can impact the security and privacy of our customers’ data. All threats, existing countermeasures, and gaps are recorded, prioritized, and remediated.
+### Encryption in Transit
+All data transmitted between **wgtwo** clients and its operators’ services (northbound interface, for e.g. BSS) is done using strong encryption protocols. **wgtwo** supports the latest recommended secure cipher suites to encrypt all external traffic in transit, including TLSv1.2 protocols, IPsec with AES128 encryption, and ECDHE ciphers.
+
+### Encryption at Rest
+**wgtwo** enforces encryption-at-rest policies for deployed cloud resources. This includes AWS EBS, S3, RDS, ElasticCache, SQS, and ElasticSearch. Encryption keys for AuC/AUSF (for SIM secrets) are FIPS 140-2 validated, auto-rotated, and backed by an HSM. In addition, various core services such as SMS and HLR/HSS perform additional encryption of sensitive data within the application. **wgtwo** also has further mechanisms and policies for secure key management such as least-privilege RBAC with audit alerting. 
+
+### Data Availability
+Leveraging remote backups, **wgtwo** can ensure that data is not lost, compromised, or permanently deleted in an event.
+
+Additional security controls: 
+- Non-production test data, keeping production data untouched in a development zone
+- RBAC controls restrict who has access to personal data
+- Privacy and security training for all employees
+
+## Application Security
+
+**wgtwo** leverages DevSecOps and has built a robust and secure development lifecycle, which identifies security threats early in the development process to protect our APIs and services. We use security threat modeling and automated configuration static analysis to identify 3rd party vulnerabilities within our code and infrastructure misconfigurations that impact the security or privacy of our resources. If identified, all critical issues are quickly remediated. All code is peer-reviewed and checked into a code revision system.
+### Software Development
+
+**wgtwo** has several security controls across the software development lifecycle to ensure that security is addressed as early as possible. As part of the design phase, security threat modeling is performed on critical applications and features that can impact the security and privacy of our customers’ data. All threats, existing countermeasures, and gaps are recorded, prioritized, and remediated.
 
 Third-party vendors are rarely used on behalf of the **wgtwo** core network. If a third-party vendor is used, proper security due diligence is performed and recorded in our ISO 27001 risk register. 
 
+Additional security controls:
+- Security automation such as SAST scans across the SDLC
+- Process for reviewing source code before production releases
+- Alerts and notifications to stakeholders on security findings throughout the SDLC process
+
+### API Security
+
+APIs are built on top of **wgtwo** core network to provide developers and operators access to the mobile core network services. At all times, authentication and authorization mechanisms are implemented to prevent unauthorized access. Third-party developers must adopt the oAuth authentication model to ensure data governance between the subscriber and developer.
+
+All APIs undergo the same security controls listed in the previous section, Software Development. Additionally, the following security controls include:
+- Rate limiting
+- Metrics and logging
+- Input validation
+- Static Analysis Security Testing (SAST)
+- Penetration testing
+
+### Authentication to **wgtwo** Applications
+**wgtwo** operates several application products offered as a service for end-subscribers and operators. All applications undergo security controls listed in this document, including sections specific to Software Development.
+
+Authentication to these applications is managed through oAuth, SAML, or other secure authentication methods approved by **wgtwo**. For customer-facing applications, Auth0 provides a secure configuration and interface for managing authentication and authorization. This authentication mechanism provides access controls, audit logs, and custom integrations to allow authentication mechanisms to meet your business requirements.
 ### Container Security
 **wgtwo** operates a centralized docker registry where all container images are scanned for vulnerabilities before being deployed into production. These security scans can identify and report when a container has known CVEs and vulnerabilities. Additionally, **wgtwo** monitors running containers frequently to identify CVEs and vulnerabilities.
 
@@ -27,22 +68,49 @@ Additional controls across the software development lifecycle:
 - Threat modeling is performed on all applications when a new feature is introduced that can potentially impact the security or privacy of our customers’ data
 - Software vulnerabilities are monitored continuously to provide recommended upgrades and patches on open source dependencies such as OS, packages, and libraries
 
-## API Security
+## Infrastructure Security
+### Cloud Security
 
-APIs are built on top of Working Group Two core network to provide developers and operators access to the mobile core network services. At all times, authentication and authorization mechanisms are implemented to prevent unauthorized access. Third-party developers must adopt the oAuth authentication model to ensure data governance between the subscriber and developer.
-
-All APIs undergo the same security controls listed in the previous section, Software Development. Additionally, the following security controls include:
-- Rate limiting
-- Metrics and logging
-- Input validation
-- Static Analysis Security Testing (SAST)
-- Penetration testing
-
-## Cloud Security
-
-Working Group Two operates primarily within AWS Cloud. Best practices are adopted to ensure security controls, processes, and countermeasures are implemented to reduce their attack surface.
+**wgtwo** operates primarily within AWS Cloud. Best practices are adopted to ensure security controls, processes, and countermeasures are implemented to reduce their attack surface.
 
 **wgtwo** holds an [Advanced Certified Partner](https://partners.amazonaws.com/partners/0010h00001ZY6fDAAT/Working%20Group%20Two%20As) with AWS. In doing so, we have demonstrated the leading best practices for operating a reliable, scalable, and secure infrastructure in the cloud. For example, we have implemented policies to prevent publicly exposing data and built tools to identify exposed services and misconfigurations as it impacts the security of our products. **wgtwo** has completed the AWS Well-Architected Best Practices assessment, which the report can be provided upon request.
+
+### On-premise Security
+**wgtwo** operates and manages edge networks in private data centers, handling all the traffic (control-plane and user-plane) coming from Mobile Network Operators, before being forwarded to the Cloud. All data centers are verified by our security team to meet the same security standard. Security controls on the edge sites include logging, alerting, metrics, public IP management, config management, firewall rules, vulnerability management, network security (L2-4), network diagrams, upgrade strategies, secure management via SSH and IPsec, and physical security of hardware.
+
+Additional security controls include:
+- Privacy checklists to ensure GDPR compliance
+- Security checklists before production deployments
+- Recurring vulnerability management
+- External audit logging and alerting
+- Monitoring
+- Automated configuration backups
+- Business continuity plan and redundancy as aligned to customer integrations
+- Threat modeling on common threat scenarios such as DDoS and unauthorized access
+
+### Logging and Monitoring
+A centralized logging and monitoring system allows **wgtwo** to ensure business continuity and security with the ability to alert and investigate security incidents. Some of this technology is leveraging AWS OpenSearch, Prometheus, Alertmanager, and Pagerduty.
+
+Following are additional controls in place to assist with our process:
+- Authentication mechanisms to access logs
+- Tamperproof logging off-host in a centralized multi-cluster database for analysis
+- Logs are encrypted at rest
+- Alerts on log volume and on-call alerts on failures in the logging service
+- Personal data such as SMS or voicemail content is not logged
+- Audit trails when access to personal data is logged externally
+- Employee and user audit logs are kept for 3 years
+
+### Identity and Access Management
+Least-privilege, need-to-know basis, RBAC, centralized IAM, and individual accounts are just a few of the controls **wgtwo** has in place to monitor and secure our core platform. 
+
+Additional controls include:
+- Centralized policies across accounts, cloud, and application resources restricting access
+- Individual accounts
+- External audit logging stored for 3 years
+- Alerting when a high privileged account is used, and access to remote systems
+- Strict password policy at least 12 characters with a combination of uppercase, lowercase, number, and special character
+- Secure remote access using encryption protocols
+- Procedures for offboarding employees across systems
 
 ### Disaster Recovery and Business Continuity Plan
 **wgtwo** utilizes services deployed by our hosting provider to distribute production operations across multiple separate physical locations. These three locations are within one geographic region which protects **wgtwo**’s service from loss of connectivity, power infrastructure, and other common location-specific failures. **wgtwo** retains a full backup copy of production data, in real-time. Backups are tested periodically.
@@ -60,11 +128,10 @@ In addition, several security controls are implemented across the cloud infrastr
 - There exists a business continuity plan for assessing and recovering from potential cloud-related incidents that can result in production downtime
 - Global policies to prevent misconfigurations of data stores. E.g. public databases
 
-## Network and System Security
+### Network and System Security
 
-Working Group Two operates a global network to ensure our customers are connected to the SS7 and internet services securely. To ensure security is implemented, we have adopted an onion-approach security model to implement security across multiple layers of the network. Depending on the application or service, security controls are aligned to reduce the risk of unauthorized access and exposure to rogue devices, networks, and users.
+**wgtwo** operates a global network to ensure our customers are connected to the SS7 and internet services securely. To ensure security is implemented, we have adopted an onion-approach security model to implement security across multiple layers of the network. Depending on the application or service, security controls are aligned to reduce the risk of unauthorized access and exposure to rogue devices, networks, and users.
 
-### Network Security and Server Hardening
 **wgtwo** divides its systems into separate networks to better protect sensitive data. Systems supporting testing and development activities are hosted in a separate network from systems supporting **wgtwo**’s production infrastructure. All servers within the development and production infrastructure are hardened (e.g., removing default passwords, disabling unnecessary ports, etc.) and have a base configuration image applied to ensure consistency across the environment. Automatic security updates are applied regularly.
 
 A network-based intrusion detection system has been deployed across all environments to identify and alert on network anomalies such as data leakage (DLP), trojans, unauthorized access, backdoors, and brute-forcing. 
@@ -91,112 +158,6 @@ Additional security controls include:
 - Monitoring vulnerabilities across application services, OS, and applications
 - Threat modeling core services throughout the development lifecycle
 
-## Data Security and Encryption
-Protecting customers’ data from unauthorized access is Working Group Two’s top priority. Several countermeasures exist to identify, contain, and prevent data leakage. Leveraging security as part of the design, encryption, access controls, and integrity controls, Working Group Two can protect customer data.
-
-### Encryption
-**wgtwo** leverages encryption at every level of our mobile core network to ensure the confidentiality and integrity of customer data. To ensure **wgtwo** always protects  customer data and remains compliant with industry standards, we have implemented software-defined policies that automatically monitor and prevent misconfigurations. For example, it is impossible to deploy a new database resource without encryption enabled as this will be prevented at run-time by these policies.
-
-#### Encryption in Transit
-All data transmitted between **wgtwo** clients and its operators’ services (northbound interface, for e.g. BSS) is done using strong encryption protocols. **wgtwo** supports the latest recommended secure cipher suites to encrypt all external traffic in transit, including TLSv1.2 protocols, IPsec with AES128 encryption, and ECDHE ciphers.
-
-#### Encryption at Rest
-**wgtwo** enforces encryption-at-rest policies for deployed cloud resources. This includes AWS EBS, S3, RDS, ElasticCache, SQS, and ElasticSearch. Encryption keys for AuC/AUSF (for SIM secrets) are FIPS 140-2 validated, auto-rotated, and backed by an HSM. In addition, various core services such as SMS and HLR/HSS perform additional encryption of sensitive data within the application. **wgtwo** also has further mechanisms and policies for secure key management such as least-privilege RBAC with audit alerting. 
-
-#### GDPR
-**wgtwo** is the Data-Processor of all data and provides the ability for operators to have full control of their end-user data. The Data-Controller sets the data retention policy and processing agreement outlined in the Data Processing Agreement (DPA). This ensures that the customer has control over how long the data is stored, where the data is stored, and who has access to the data.
-
-#### Data Availability
-Leveraging remote backups, **wgtwo** can ensure that data is not lost, compromised, or permanently deleted in an event.
-
-Additional security controls: 
-- Non-production test data, keeping production data untouched in a development zone
-- RBAC controls restrict who has access to personal data
-- Privacy and security training for all employees
-
-## Identity and Access Management
-Least-privilege, need-to-know basis, RBAC, centralized IAM, and individual accounts are just a few of the controls Working Group Two has in place to monitor and secure our core platform. 
-
-Additional controls include:
-- Centralized policies across accounts, cloud, and application resources restricting access
-- Individual accounts
-- External audit logging stored for 3 years
-- Alerting when a high privileged account is used, and access to remote systems
-- Strict password policy at least 12 characters with a combination of uppercase, lowercase, number, and special character
-- Secure remote access using encryption protocols
-- Procedures for offboarding employees across systems
-
-## Logging and Monitoring
-A centralized logging and monitoring system allows Working Group Two to ensure business continuity and security with the ability to alert and investigate security incidents. Some of this technology is leveraging AWS OpenSearch, Prometheus, Alertmanager, and Pagerduty.
-
-Following are additional controls in place to assist with our process:
-- Authentication mechanisms to access logs
-- Tamperproof logging off-host in a centralized multi-cluster database for analysis
-- Logs are encrypted at rest
-- Alerts on log volume and on-call alerts on failures in the logging service
-- Personal data such as SMS or voicemail content is not logged
-- Audit trails when access to personal data is logged externally
-- Employee and user audit logs are kept for 3 years
-
-## Organization and Human Security
-**wgtwo** is building an industry-leading security program based on the concept of defense-in-depth, securing its organization and your data at every layer. **wgtwo** security program aligns with industry security and privacy standards, such as ISO 27001, CIS, NIST, GSMA, and GDPR.
-
-**wgtwo** employs security personnel who’s responsible for implementing its security program. Focus areas include: 
-- Cloud and On-Premise Security Architecture
-- Product Development Security
-- Technical Security Training
-- Security Engineering and Operations 
-- Detection and Response
-- Risk and Compliance
-- Telecommunication SS7 Security
-
-Additional security controls:
-- Procedures to backup personal data
-- Formal security awareness training for all new and existing employees
-- Formulate contractual agreements when required
-- Policies and procedures outlining the employee responsibility of confidentiality of personal data
-- Process for managing system access for employees for onboarding and offboarding
-
-## Security by Design
-**wgtwo** leverages DevSecOps and has built a robust and secure development lifecycle, which identifies security threats early in the development process to protect our APIs and services.We use security threat modeling and automated configuration static analysis to identify 3rd party vulnerabilities within our code and infrastructure misconfigurations that impact the security or privacy of our resources. If identified, all critical issues are quickly remediated. All code is peer-reviewed and checked into a code revision system.
-
-Additional security controls:
-- Security automation such as SAST scans across the SDLC
-- Process for reviewing source code before production releases
-- Alerts and notifications to stakeholders on security findings throughout the SDLC process
-
-## Authentication to **wgtwo** Applications
-Working Group Two operates several application products offered as a service for end-subscribers and operators. All applications undergo security controls listed in this document, including sections specific to Software Development.
-
-Authentication to these applications is managed through oAuth, SAML, or other secure authentication methods approved by **wgtwo**. For customer-facing applications, Auth0 provides a secure configuration and interface for managing authentication and authorization. This authentication mechanism provides access controls, audit logs, and custom integrations to allow authentication mechanisms to meet your business requirements.
-
-## Personal Data Breach Notification
-**wgtwo** has a 24/7 level 3 on-call program to quickly identify and remediate operational and security incidents. Dedicated security playbooks have been established to facilitate the proper handling of all security incidents. In the event of a security incident, all affected parties will be informed within 72 hours. Incident response procedures are tested and updated at least annually.
-
-Additional security controls:
-- Centralized SIEM to collect, monitor, and alert on security anomalies within the application and network traffic
-- Incident Response Policy and Plan
-- Data Privacy Risk Assessment
-- Communication incident procedures with customers for timely notifications
-
-## Certification
-**wgtwo** security program aligns with industry security and privacy standards, such as ISO 27001, CIS, NIST, GSMA, and GDPR. Processes exist to monitor our cloud and application infrastructure to these standards and fix any gaps.
-
-## Privacy Regulation
-**wgtwo** aligns with local and regional regulations on behalf of our customers. This includes but is not limited to regional data protection laws and privacy protection laws. **wgtwo** as a company operates within the scope of GDPR within the EU.
-
-## Auditing
-There exist policies for security practices, standards, and processes within the scope of how **wgtwo** implements a security governance framework. These policies can be shared with authorized parties.
-
-Referencing section Logging and Monitoring, several controls exist with auditing.
-
-Additional security controls include:
-- Logging administrative operations
-- Ability to retrieve and view logs on a usage report
-- Audit trails across cloud and physical machines
-- CRUD events are audited automatically
-- Audit logs are ingested as part of the SIEM
-
 ## Telecommunication Security
 **wgtwo** performs threat modeling across its telco services to understand the threats/risks and implement countermeasures to reduce the risk of an event. Additionally, **wgtwo** leverages best practices identified by GSMA to implement additional controls.
 
@@ -221,20 +182,31 @@ In 2021, Android-based spyware named Flubot propagated via SMS across handsets, 
 ### Voice call 
 An operator can configure least-privilege controls to restrict the number of parallel calls and limit the national and internal call duration (e.g. 8 hours national, 2 hours international, and 10 parallel calls). 
 
-## Infrastructure On-premise Security
-**wgtwo** operates and manages edge networks in private data centers, handling all the traffic (control-plane and user-plane) coming from Mobile Network Operators, before being forwarded to the Cloud. All data centers are verified by our security team to meet the same security standard. Security controls on the edge sites include logging, alerting, metrics, public IP management, config management, firewall rules, vulnerability management, network security (L2-4), network diagrams, upgrade strategies, secure management via SSH and IPsec, and physical security of hardware.
 
-Additional security controls include:
-- Privacy checklists to ensure GDPR compliance
-- Security checklists before production deployments
-- Recurring vulnerability management
-- External audit logging and alerting
-- Monitoring
-- Automated configuration backups
-- Business continuity plan and redundancy as aligned to customer integrations
-- Threat modeling on common threat scenarios such as DDoS and unauthorized access
 
-## Customer Integration Security
+
+
+## Operational Security
+
+**wgtwo** is building an industry-leading security program based on the concept of defense-in-depth, securing its organization and your data at every layer. **wgtwo** security program aligns with industry security and privacy standards, such as ISO 27001, CIS, NIST, GSMA, and GDPR.
+
+**wgtwo** employs security personnel who’s responsible for implementing its security program. Focus areas include: 
+- Cloud and On-Premise Security Architecture
+- Product Development Security
+- Technical Security Training
+- Security Engineering and Operations 
+- Detection and Response
+- Risk and Compliance
+- Telecommunication SS7 Security
+
+Additional security controls:
+- Procedures to backup personal data
+- Formal security awareness training for all new and existing employees
+- Formulate contractual agreements when required
+- Policies and procedures outlining the employee responsibility of confidentiality of personal data
+- Process for managing system access for employees for onboarding and offboarding
+
+### Customer Integration Security
 **wgtwo** ensures security is aligned early in the process when integrating new partners onto our core network. Throughout an integration process, we ensure security is part of the design process and is aligned with our existing security procedures.
 
 Additional security controls include:
@@ -245,8 +217,41 @@ Additional security controls include:
 - Business continuity and disaster recovery plans
 - Secure auth solution compatible with SAML, OAuth, email, and MFA
 
-## Policies and Procedures
-Working Group Two maintains an ISO 27001 policy packet to ensure security governance is followed across the organization; available upon request. Working Group Two has also started the process to get the ISO 27001 certification.
+### Certification
+**wgtwo** security program aligns with industry security and privacy standards, such as ISO 27001, CIS, NIST, GSMA, and GDPR. Processes exist to monitor our cloud and application infrastructure to these standards and fix any gaps.
+
+
+
+### Auditing
+There exist policies for security practices, standards, and processes within the scope of how **wgtwo** implements a security governance framework. These policies can be shared with authorized parties.
+
+Referencing section Logging and Monitoring, several controls exist with auditing.
+
+Additional security controls include:
+- Logging administrative operations
+- Ability to retrieve and view logs on a usage report
+- Audit trails across cloud and physical machines
+- CRUD events are audited automatically
+- Audit logs are ingested as part of the SIEM
+
+### Policies and Procedures
+**wgtwo** maintains an ISO 27001 policy packet to ensure security governance is followed across the organization; available upon request. **wgtwo** has also started the process to get the ISO 27001 certification.
+
+## Privacy
+### Privacy Regulation
+**wgtwo** aligns with local and regional regulations on behalf of our customers. This includes but is not limited to regional data protection laws and privacy protection laws. **wgtwo** as a company operates within the scope of GDPR within the EU.
+
+### GDPR
+**wgtwo** is the Data-Processor of all data and provides the ability for operators to have full control of their end-user data. The Data-Controller sets the data retention policy and processing agreement outlined in the Data Processing Agreement (DPA). This ensures that the customer has control over how long the data is stored, where the data is stored, and who has access to the data.
+
+### Personal Data Breach Notification
+**wgtwo** has a 24/7 level 3 on-call program to quickly identify and remediate operational and security incidents. Dedicated security playbooks have been established to facilitate the proper handling of all security incidents. In the event of a security incident, all affected parties will be informed within 72 hours. Incident response procedures are tested and updated at least annually.
+
+Additional security controls:
+- Centralized SIEM to collect, monitor, and alert on security anomalies within the application and network traffic
+- Incident Response Policy and Plan
+- Data Privacy Risk Assessment
+- Communication incident procedures with customers for timely notifications
 
 ## Contact Details
 Security is at the heart of **wgtwo**’s engineering culture. Every person, team, and organization deserves and expects their data to be secure and confidential. **wgtwo** continues to work hard to ensure the safeguarding of this data. Please contact us at security@wgtwo.com if you have any questions.
