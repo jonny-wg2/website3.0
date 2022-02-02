@@ -53,6 +53,7 @@ All APIs undergo the same security controls listed in the previous section, Soft
 **wgtwo** operates several application products offered as a service for end-subscribers and operators. All applications undergo security controls listed in this document, including sections specific to Software Development.
 
 Authentication to these applications is managed through oAuth, SAML, or other secure authentication methods approved by **wgtwo**. For customer-facing applications, Auth0 provides a secure configuration and interface for managing authentication and authorization. This authentication mechanism provides access controls, audit logs, and custom integrations to allow authentication mechanisms to meet your business requirements.
+
 ### Container Security
 **wgtwo** operates a centralized docker registry where all container images are scanned for vulnerabilities before being deployed into production. These security scans can identify and report when a container has known CVEs and vulnerabilities. Additionally, **wgtwo** monitors running containers frequently to identify CVEs and vulnerabilities.
 
@@ -181,10 +182,6 @@ In 2021, Android-based spyware named Flubot propagated via SMS across handsets, 
 
 ### Voice call 
 An operator can configure least-privilege controls to restrict the number of parallel calls and limit the national and internal call duration (e.g. 8 hours national, 2 hours international, and 10 parallel calls). 
-
-
-
-
 
 ## Operational Security
 
