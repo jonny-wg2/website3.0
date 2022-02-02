@@ -7,6 +7,33 @@
   - Keep the structure `yyyy-mm-dd-name-of-blog.md`
   - Ensure you add a `<!--truncate-->` after the first paragraph of your blogpost to truncate the text for when viewing at wgtwo.com/blog. If not, the entire blog post will be displayed
 
+Example simple blogpost
+- slug = the url wgtwo.com/blog/your-slug-here
+
+<details>
+<summary>2022-02-02-how-to-write-a-blog-post.md</summary>
+<br>
+<pre>
+---
+slug: log4j-security-vulnerability
+title: "Zero-day vulnerabilities - Log4j"
+date: 2021-12-17
+tags: [security, infrastructure, vulnerability]
+author: Jonnathan Griffin
+author_title: Security Engineer
+author_url: https://www.linkedin.com/in/jonnathangriffin/
+author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQEjrF7PC8veoQ/profile-displayphoto-shrink_400_400/0/1624522450808?e=1648684800&v=beta&t=LZVAsE5hVp3T50zGPk0qkf8qPJCnsXBlBXfCosrTH5o
+---
+
+This will be viewed from wgtwo.com/blog and should be short.
+
+<!--truncate-->
+
+Mow my real blog post begins 
+...
+...
+</pre>
+</details>
 ## Docs
 
 - Upload your-doc.md at https://github.com/working-group-two/wgtwo.com/tree/main/docs/
