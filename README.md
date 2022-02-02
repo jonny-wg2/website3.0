@@ -27,9 +27,9 @@ author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQEjrF7PC8veoQ/pro
 
 This will be viewed from wgtwo.com/blog and should be short.
 
-<!--truncate-->
+\<!--truncate-->
 
-Mow my real blog post begins 
+Now my real blog post begins 
 ...
 ...
 </pre>
