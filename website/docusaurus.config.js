@@ -3,7 +3,7 @@ module.exports = {
   tagline:
     "No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.",
   url: "https://jonny-wg2.github.io/website3.0",
-  baseUrl: "/",
+  baseUrl: "/website3.0/",
   favicon: "img/favicons/favicon.ico",
   organizationName: "jonny-wg2",
   projectName: "website3.0",
