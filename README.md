@@ -39,9 +39,9 @@ Now my real blog post begins
 - Upload your-doc.md at [docs/](https://github.com/working-group-two/wgtwo.com/tree/main/docs/)
 - Upload images at [docs/images/](https://github.com/working-group-two/wgtwo.com/tree/main/docs/images/)
 
-To have the new doc show up on the sidebar, update [sidebars.js](https://github.com/working-group-two/wgtwo.com/tree/main/sidebars.js) at  with the `id` that is specified in the `docs/your-doc.md`. The following is an example:
+To have the new doc show up on the sidebar, update [sidebars.js](https://github.com/working-group-two/wgtwo.com/tree/main/website/sidebars.js) at  with the `id` that is specified in the `docs/your-doc.md`. The following is an example:
 
-[docs/media-and-press.md](https://github.com/working-group-two/wgtwo.com/tree/main/docs/media-and-press.md)
+[docs/media-and-press.md](https://github.com/working-group-two/wgtwo.com/tree/main/docs/about/media-and-press.md)
 ```yaml
 ---
 id: media-and-press
@@ -52,17 +52,19 @@ your normal markdown text here
 ...
 ```
 
-[sidebars.js](https://github.com/working-group-two/wgtwo.com/tree/main/sidebars.js)
+[sidebars.js](https://github.com/working-group-two/wgtwo.com/tree/main/website/sidebars.js)
 ```js
 module.exports = {
   someSidebar: {
     "About Working Group Two": [
-      "introduction",
-      "concept", 
-      "working-with-wgtwo", 
-      "demos", 
-      "media-and-press",
+      "about/introduction",
+      "about/concept", 
+      "about/working-with-wgtwo", 
+      "about/demos", 
+      "about/media-and-press",
     ],
+    "Case Studies": [
+      "case-studies/adjacent-cores-for-operators", 
     ...
     ...
     ...
@@ -79,7 +81,7 @@ In short, the main things to know for markdown
 normal paragraph with then **bold** text and *italic* text
 
 Image for a docs
-![](images/wgtwo-skier-1.png)  
+![](../images/wgtwo-skier-1.png)  
 
 Image for a blog
 ![](/img/blog/log4j/01-canary-tokens.png)
@@ -109,61 +111,49 @@ yarn run serve
 
 Website structure
 ```bash
-$ tree -d -L 4
+$  tree -d -L 4
 .
 ├── blog
 ├── docs
-│   └── images
-│       └── wgtwo-logos
-├── src
-│   ├── components
-│   │   ├── apply
-│   │   ├── brands
-│   │   ├── casestudy
-│   │   ├── cta
-│   │   ├── enterprise
-│   │   ├── hero
-│   │   ├── integrations
-│   │   ├── interview-process
-│   │   ├── logs
-│   │   ├── multig
-│   │   ├── ourservice
-│   │   ├── quote
-│   │   ├── rbe
-│   │   ├── security-domain
-│   │   ├── security-header
-│   │   └── technologymetrics
-│   ├── css
-│   ├── pages
-│   └── util
-├── static
-│   ├── img
-│   │   ├── blog
-│   │   │   ├── blend-modes
-│   │   │   ├── building-software-for-a-telecom-core-network
-│   │   │   ├── forbidden-lore-hacking-dns-routing-for-k8s
-│   │   │   ├── hackdays-october-2020
-│   │   │   ├── jenkins-to-concourse
-│   │   │   ├── kafka-timers
-│   │   │   ├── log4j
-│   │   │   ├── mqtt-event-bridge
-│   │   │   ├── operator
-│   │   │   ├── sms
-│   │   │   ├── thanos
-│   │   │   ├── the-specs-behind-the-specs
-│   │   │   ├── vowifi-imsi-leak
-│   │   │   ├── website-redesign
-│   │   │   └── were-all-grownups-here
-│   │   ├── favicons
-│   │   └── team
-│   └── video
-│       └── blog
-│           └── mqtt-event-bridge
-└── theme
-    ├── BlogListPage
-    ├── BlogPostItem
-    ├── BlogPostPage
-    ├── BlogSidebar
-    ├── BlogTagsListPage
-    └── BlogTagsPostsPage
+│   ├── about
+│   ├── case-studies
+│   ├── images
+│   │   └── wgtwo-logos
+│   └── technology
+└── website
+    ├── src
+    │   ├── components
+    │   │   ├── apply
+    │   │   ├── brands
+    │   │   ├── casestudy
+    │   │   ├── cta
+    │   │   ├── enterprise
+    │   │   ├── hero
+    │   │   ├── integrations
+    │   │   ├── interview-process
+    │   │   ├── logs
+    │   │   ├── multig
+    │   │   ├── ourservice
+    │   │   ├── quote
+    │   │   ├── rbe
+    │   │   ├── security-domain
+    │   │   ├── security-header
+    │   │   └── technologymetrics
+    │   ├── css
+    │   ├── pages
+    │   └── util
+    ├── static
+    │   ├── img
+    │   │   ├── blog
+    │   │   ├── favicons
+    │   │   └── team
+    │   └── video
+    │       └── blog
+    └── theme
+        ├── BlogListPage
+        ├── BlogPostItem
+        ├── BlogPostPage
+        ├── BlogSidebar
+        ├── BlogTagsListPage
+        └── BlogTagsPostsPage
 ```

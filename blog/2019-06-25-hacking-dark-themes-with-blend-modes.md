@@ -16,6 +16,8 @@ partners have wanted a dark theme for one of our applications for some time.
 We haven't been able to prioritize this, but we were using CSS blend modes for a different project,
 and wondered if we could use them to quickly put together a dark theme.
 
+<!--truncate-->
+
 The application in this post is one of our partner portals, which follows the Material Design
 guidelines. It’s built with [Vue](https://vuejs.org/) and [Vuetify](https://vuetifyjs.com/en/),
 but also has some custom components and JS plugins (for uploads, charts, etc).
