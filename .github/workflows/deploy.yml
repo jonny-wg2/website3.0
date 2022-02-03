@@ -14,4 +14,4 @@ jobs:
           git-password: ${{ secrets.GITHUB_TOKEN }}
           deployment-branch: gh-pages
           env:
-            SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+            SLACK_WEBHOOK: '${{ secrets.SLACK_WEBHOOK }}'
