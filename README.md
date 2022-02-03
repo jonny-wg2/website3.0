@@ -98,6 +98,7 @@ The website is built using Docusaurus, React, and Typescript. This allows for cu
 
 To run the website locally with hot reload:
 ```bash
+cd website
 yarn install
 yarn start
 ```
@@ -105,6 +106,7 @@ yarn start
 Before pushing to prod, it is recommended to test with `yarn build`. There can be oddities with CSS changes for when React will generate the html. To test this,
 
 ```bash
+cd website
 yarn build
 yarn run serve
 ```
