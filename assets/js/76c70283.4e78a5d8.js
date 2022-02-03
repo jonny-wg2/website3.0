@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[5960],{4487:function(s){s.exports=JSON.parse('{"allTagsPath":"/website3.0/blog/tags","slug":"/website3.0/blog/tags/thanos","name":"thanos","count":1,"permalink":"/website3.0/blog/tags/thanos"}')}}]);

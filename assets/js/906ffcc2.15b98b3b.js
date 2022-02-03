@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[9582],{720:function(e){e.exports=JSON.parse('{"allTagsPath":"/website3.0/blog/tags","slug":"/website3.0/blog/tags/infrastructure","name":"infrastructure","count":5,"permalink":"/website3.0/blog/tags/infrastructure"}')}}]);
