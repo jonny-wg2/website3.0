@@ -188,17 +188,17 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          path: "docs",
+          path: "../docs",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/working-group-two/wgtwo.com/edit/master/docs/",
+          editUrl: "https://github.com/jonny-wg2/website3.0/edit/main/docs/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
         blog: {
-          path: "blog",
+          path: "../blog",
           showReadingTime: true,
           blogSidebarCount: 1000,
-          editUrl: "https://github.com/working-group-two/wgtwo.com/edit/master/blog/",
+          editUrl: "https://github.com/jonny-wg2/website3.0/edit/main/blog/",
           blogPostComponent: "../theme/BlogPostPage",
           blogListComponent: "../theme/BlogListPage",
           blogTagsListComponent: "../theme/BlogTagsListPage",

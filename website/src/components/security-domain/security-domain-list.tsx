@@ -20,7 +20,7 @@ function Component(props) {
         <div className={styles.securityDomain} key={securityDomain.name}>
           <div className={styles.securityDomainTitle}>{securityDomain.name}</div>
           <div className={styles.securityDomainDescription}>{securityDomain.description}</div>
-          <a href={`/docs/security-whitepaper#${securityDomain.name.replace(/ /g, "-").toLowerCase()}`} className={styles.link}>
+          <a href={`/docs/technology/security-whitepaper#${securityDomain.name.replace(/ /g, "-").toLowerCase()}`} className={styles.link}>
             Learn more
           </a>
           <div className={common.spacer}></div>

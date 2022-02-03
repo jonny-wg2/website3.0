@@ -20,14 +20,6 @@ function Component() {
         </div>
       </div>
       <hr className={styles.hr} />
-      <div className={`${common.container} ${common.splitContainer} ${styles.caseStudyContainer}`}>
-        <div className={common.text}>
-          {/* <div className={styles.title}>Industry case studies</div>
-          <div className={styles.subtitle}>
-            <b>wgtwo</b>'s goal is to drive innovation and growth for your business.
-          </div> */}
-        </div>
-      </div>
       <div className={styles.caseStudyList}>
         <CaseStudyList length={6} />
       </div>
