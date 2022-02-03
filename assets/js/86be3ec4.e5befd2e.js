@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2475],{5789:function(e){e.exports=JSON.parse('{"allTagsPath":"/website3.0/blog/tags","slug":"/website3.0/blog/tags/kubernetes","name":"kubernetes","count":3,"permalink":"/website3.0/blog/tags/kubernetes"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8204],{5535:function(e){e.exports=JSON.parse('{"permalink":"/website3.0/blog","page":1,"postsPerPage":10,"totalPages":2,"totalCount":18,"previousPage":null,"nextPage":"/website3.0/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
