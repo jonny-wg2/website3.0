@@ -5,8 +5,6 @@ jobs:
   deploy:
     environment: github-pages
     runs-on: ubuntu-latest
-    env:
-      SLACK_WEBHOOK: '${{ secrets.SLACK_WEBHOOK }}'
     steps:
       - uses: actions/checkout@master
       - uses: redkubes/docusaurus-deploy-action@master

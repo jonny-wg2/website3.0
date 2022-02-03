@@ -3,12 +3,7 @@ import Layout from "@theme/Layout";
 import common from "../css/common.module.css";
 import styles from "./team.module.css";
 import Image from "@theme/IdealImage";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-} from 'react-router-dom';
+
 const teamMembers = [
   {
     name: "Oslo",
@@ -93,8 +88,6 @@ function Team() {
           <div className={common.container}>
             <div className={`${common.centeredText}`}>
               <h2 className={common.title}>Interested in joining our growing team?</h2>
-              <Link to="/careers" target="_self">careers</Link>
-              
               <a href="/careers" target="_self" className={`${common.button} ${common.buttonPrimary} ${styles.button}`}>
                 View open positions
               </a>

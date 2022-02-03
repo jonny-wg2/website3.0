@@ -1,7 +1,6 @@
 export default function sendMessage(message: string) {
-  const slackWebHook = process.env.SLACK_WEBHOOK
   return fetch(
-    atob({slackWebHook}),
+    atob("aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDdCOTlMQkRNL0IwMzEwRjYxVUNDLzNsU0xVQVJmWk52YWlubXpKT0VUUEVGdAo="),
     {
       method: "POST",
       body: `{"text":"${message.replace(/"/g, '\\"')}"}`,
