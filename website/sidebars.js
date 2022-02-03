@@ -1,11 +1,11 @@
 module.exports = {
   someSidebar: {
     "About Working Group Two": [
-      "about-working-group-two/introduction",
-      "about-working-group-two/concept", 
-      "about-working-group-two/working-with-wgtwo", 
-      "about-working-group-two/demos", 
-      "about-working-group-two/media-and-press",
+      "about/introduction",
+      "about/concept", 
+      "about/working-with-wgtwo", 
+      "about/demos", 
+      "about/media-and-press",
     ],
     "Case Studies": [
       "case-studies/adjacent-cores-for-operators", 

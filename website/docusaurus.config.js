@@ -113,7 +113,7 @@ module.exports = {
             },
             {
               label: "Docs",
-              href: "/docs/introduction",
+              href: "/docs/about/introduction",
               target: "_self",
             },
             {
@@ -142,7 +142,7 @@ module.exports = {
             },
             {
               label: "Security Whitepaper",
-              href: "/docs/security-whitepaper",
+              href: "/docs/technology/security-whitepaper",
               target: "_self",
             },
             {
@@ -157,7 +157,7 @@ module.exports = {
           items: [
             {
               label: "Media & Press",
-              href: "/docs/media-and-press",
+              href: "/docs/about/media-and-press",
               target: "_self",
             },
             {
@@ -237,11 +237,11 @@ module.exports = {
       {
         redirects: [
           {
-            to: "/docs/introduction",
+            to: "/docs/about/introduction",
             from: ["/faq"],
           },
           {
-            to: "/docs/introduction",
+            to: "/docs/about/introduction",
             from: ["/docs"],
           },
         ],
