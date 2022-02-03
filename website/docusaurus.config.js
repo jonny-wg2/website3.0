@@ -83,7 +83,7 @@ module.exports = {
         {
           items: [
             {
-              html: `<a href="/"><img alt="wgtwo Logo" src="img/logo_white.svg" width="281px" height="32px" class="footer-logo" /></a>`,
+              html: `<a href="/"><img alt="wgtwo Logo" src="/img/logo_white.svg" width="281px" height="32px" class="footer-logo" /></a>`,
             },
           ],
         },
