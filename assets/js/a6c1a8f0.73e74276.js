@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[6382],{9532:function(e){e.exports=JSON.parse('{"allTagsPath":"/website3.0/blog/tags","slug":"/website3.0/blog/tags/erlang","name":"erlang","count":1,"permalink":"/website3.0/blog/tags/erlang"}')}}]);

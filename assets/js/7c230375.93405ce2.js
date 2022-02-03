@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[6292],{3659:function(e){e.exports=JSON.parse('{"allTagsPath":"/website3.0/blog/tags","slug":"/website3.0/blog/tags/security","name":"security","count":2,"permalink":"/website3.0/blog/tags/security"}')}}]);
